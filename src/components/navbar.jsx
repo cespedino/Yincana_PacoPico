@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 
 const NavigationBar = () => {
   return (
-    <Navbar className="navbar-custom" expand="lg">
+    <Navbar className="navbar-custom" expand="lg" fixed='top'>
       <Container>
         <Navbar.Brand as={Link} to="/">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
