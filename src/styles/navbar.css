@@ -1,13 +1,27 @@
 .navbar-custom {
-    background-color: #343a40;
+    background-color: #29335c;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.navbar-custom .navbar-brand {
     color: #fff;
+    font-size: 1.5rem;
+}
+  
+.navbar-custom .nav-link {
+    color: #ddd;
 }
   
 .navbar-custom .nav-link:hover {
-    color: #ccc;
+    color: #fff;
 }
   
