@@ -4,10 +4,9 @@ const About = () => {
     return (
         <div className='pag-principales'>
           <h1>Instrucciones</h1>
-          <p>Esto es una pequeña guía de lo que vas a ver a continuación.<br />
-            Tu regalo es una especie de juego de rol en la vida real. <br />
-            Como el juego es en la realidad y la vida es un mundo difícil, el reto lo afrontarás solo. <br />
-            Reglas: </p>
+          <p>Esto es una pequeña guía de lo que vais a ver a continuación.<br />
+             Vuestro regalo es una especie de juego de rol en la vida real. <br />
+             Reglas: </p>
           <p className='extra-margin'>  
             1.	No mirar el código del proyecto. <br />
             2.	El dispositivo desde donde lo empieces será tu centro de operaciones (preferiblemente usa el HP porque es el único donde se ha <br />
