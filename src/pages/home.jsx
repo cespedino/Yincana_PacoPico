@@ -17,7 +17,7 @@ const Home = () => {
   };
 
   const handleButtonClick = () => {
-    navigate('/services'); // Reemplaza '/next-page' con la ruta de la página a la que deseas navegar
+    navigate('/fase1'); // Reemplaza '/next-page' con la ruta de la página a la que deseas navegar
   };
 
   return (

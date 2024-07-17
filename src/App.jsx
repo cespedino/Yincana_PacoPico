@@ -5,6 +5,7 @@ import Home from './pages/home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Fase1 from './teorema/Fase1.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/fase1" element={<Fase1 />} /> 
       </Routes>
       </div>
     </Router>
