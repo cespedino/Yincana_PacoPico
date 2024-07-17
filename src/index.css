@@ -25,14 +25,14 @@ header {
 }
 
 p {
-  margin: 1rem 5rem;
+  margin: 1rem 1rem;
   line-height: 1.6;
   font-family: 'Arial, sans-serif';
   color: #333;
 } 
 
 .extra-margin {
-  margin-left: 7rem; /* O cualquier valor que prefieras */
+  margin-left: 2.5rem; /* O cualquier valor que prefieras */
 }  
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 .pag-principales {
   margin-bottom: 10%;
   background-color: white;
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
