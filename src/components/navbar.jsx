@@ -24,7 +24,7 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to="/" onClick={handleClose}>Home</Nav.Link>
+            <Nav.Link as={Link} to="/Yincana_PacoPico" onClick={handleClose}>Home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={handleClose}>Instrucciones</Nav.Link>
             <Nav.Link as={Link} to="/services" onClick={handleClose}>Teorema de Paco Pico</Nav.Link>
             <Nav.Link as={Link} to="/contact" onClick={handleClose}>La Leyenda de la Puchaina Matediva</Nav.Link>

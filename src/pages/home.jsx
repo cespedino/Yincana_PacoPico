@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/home.css'
+import '../styles/home.css';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
@@ -8,8 +8,9 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleInputChange = (e) => {
-    setInputValue(e.target.value);
-    if (e.target.value === 'secreta') { // Reemplaza 'secreta' con la palabra secreta que desees
+    const value = e.target.value;
+    setInputValue(value);
+    if (value.toLowerCase() === 'hola') { // Cambia 'hola' por la palabra secreta deseada
       setIsButtonVisible(true);
     } else {
       setIsButtonVisible(false);
@@ -17,22 +18,22 @@ const Home = () => {
   };
 
   const handleButtonClick = () => {
-    navigate('/fase1'); // Reemplaza '/next-page' con la ruta de la página a la que deseas navegar
+    navigate('/fase1'); // Cambia '/fase1' por la ruta deseada
   };
 
   return (
     <div className="page-content">
-      <h1>Home Page</h1>
+      <h1>Bienvenidos</h1>
       <p>Bienvenido a la página de inicio.</p>
       <input
         type="text"
-        placeholder="Introduce la palabra secreta"
+        placeholder="Aún no has desbloqueado el acceso a este engima"
         value={inputValue}
         onChange={handleInputChange}
       />
       {isButtonVisible && (
         <button onClick={handleButtonClick} className="custom-button">
-          Siguiente Página
+          Fase Final
         </button>
       )}
     </div>

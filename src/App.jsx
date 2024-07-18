@@ -13,7 +13,7 @@ function App() {
       <NavigationBar />
       <div style={{ paddingTop: '20px' }}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Yincana_PacoPico" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
