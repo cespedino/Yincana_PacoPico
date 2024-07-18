@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/home.css';
+import '../styles/pages.css';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
@@ -27,7 +27,7 @@ const Home = () => {
       <p>Bienvenido a la página de inicio.</p>
       <input
         type="text"
-        placeholder="Aún no has desbloqueado el acceso a este engima"
+        placeholder="Aún no has tienes acceso a este engima"
         value={inputValue}
         onChange={handleInputChange}
       />

@@ -18,7 +18,7 @@ const NavigationBar = () => {
   return (
     <Navbar className="navbar-custom" expand="lg" fixed="top" expanded={expanded}>
       <Container>
-        <Navbar.Brand as={Link} to="/" onClick={handleClose}>
+        <Navbar.Brand as={Link} to="/Yincana_PacoPico" onClick={handleClose}>
           <img src={logo} alt="Logo" height="80" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
