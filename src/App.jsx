@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <NavigationBar />
-      <div style={{ paddingTop: '20px' }}>
+      <div>
       <Routes>
         <Route path="/Yincana_PacoPico" element={<Home />} />
         <Route path="/about" element={<About />} />
