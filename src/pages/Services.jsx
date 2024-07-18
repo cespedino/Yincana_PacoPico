@@ -23,10 +23,16 @@ const Services = () => {
 
   return (
     <div className='page-content' id="inicio">
-      <h1>El teorema de Paco Pico</h1>
+      <h1>La Teoría de Paco Pico</h1>
       <h2>Prueba de entrada</h2>
       <p>
-        Para poder entrar a esta yincana, os espera un reto para saber si sois dignos de afrontar un reto tan distintivo: <br/>
+        En esta aventura formarán parte seis intrépidos investigadores de matemáticas:
+        Clara investigadora en teoría de grupos sectarios, Julia que esta investigando algo, pero no se ha enterado muy bien el qué, Candela 
+        que se ha adentrado en la teoría de los cuerpos perfectos (los rumores hablan de que tiene que ver algo con su hijo), Irene que es experta en superficies y 
+        cuerpos de la pradera, Nura algebrista enamorada de la geometría y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
+      </p>
+      <p>
+        Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo: <br/>
         Coméis en un sitio que se usa para jugar en la respuesta del acertijo
       </p>
       <input
