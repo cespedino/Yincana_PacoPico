@@ -28,6 +28,18 @@
     box-sizing: border-box;
   }
   
+  .input-container {
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+  }
+  
+  .input-secret {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
   .acertijos {
     border: 2px solid #0056b3; /* Especifica el tipo de borde */
     border-radius: 5px;

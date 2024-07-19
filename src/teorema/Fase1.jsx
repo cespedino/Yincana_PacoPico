@@ -10,7 +10,7 @@ const Fase1 = () => {
   const handleInputChange = (e) => {
     const value = e.target.value;
     setInputValue(value);
-    if (value.toLowerCase() === 'amarilla') { // Cambia 'respuesta' por la palabra secreta deseada
+    if (value.toLowerCase() === 'amarillo' || value.toLowerCase() === 'amarilla') { // Cambia 'respuesta' por la palabra secreta deseada
       setIsButtonVisible(true);
     } else {
       setIsButtonVisible(false);
@@ -31,25 +31,28 @@ const Fase1 = () => {
           •	Haya tensión sexual entre algunos elementos, pero no pase de ahí. <br />
           •	No haya relaciones simétricas entre los elementos.<br />
         Entonces, se forma la secta de Paco Pico. <br />
+        <br />
         A partir de aquí vuestro trabajo va a ser demostrar este teorema e ir avanzando por definiciones, lemas y proposiciones que os terminarán llevando al Teorema
         Fundamental de Paco Pico. <br />
       </p>
-      <p>Esperemos que os guste, se ha hecho con mucho cariño y con el fin de que lo disfruteis al máximo.</p>
       <h2>Lema de la farola</h2>
-      <p>
+      <p className='acertijos'>
         En la plaza de las ocho farolas de colores, hay un color que no se repite. ¿Cuál es?
       </p>
-      <input
-        type="text"
-        placeholder="Introduce la palabra secreta"
-        value={inputValue}
-        onChange={handleInputChange}
-      />
-      {isButtonVisible && (
-        <button onClick={handleButtonClick} className="custom-button">
-          Siguiente Fase
-        </button>
-      )}
+      <div className="input-container">
+        <input
+          type="text"
+          placeholder="Introduce la palabra secreta"
+          value={inputValue}
+          onChange={handleInputChange}
+          className="input-secret" // Añade una clase para el input si quieres estilizarlo
+        />
+        {isButtonVisible && (
+          <button onClick={handleButtonClick} className="custom-button">
+            Siguiente Fase
+          </button>
+        )}
+      </div>
     </div>
   );
 };
