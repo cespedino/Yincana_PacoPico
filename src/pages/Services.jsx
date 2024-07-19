@@ -35,17 +35,20 @@ const Services = () => {
       <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
 
       
-      <input
-        type="text"
-        placeholder="Introduce la palabra secreta"
-        value={inputValue}
-        onChange={handleInputChange}
-      />
-      {isButtonVisible && (
-        <button onClick={handleButtonClick} className="custom-button">
-          Siguiente Página
-        </button>
-      )}
+      <div className="input-container">
+        <input
+          type="text"
+          placeholder="Introduce la palabra secreta"
+          value={inputValue}
+          onChange={handleInputChange}
+          className="input-secret" // Añade una clase para el input si quieres estilizarlo
+        />
+        {isButtonVisible && (
+          <button onClick={handleButtonClick} className="custom-button">
+            Siguiente Fase
+          </button>
+        )}
+      </div>
     </div>
   );
 };
