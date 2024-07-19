@@ -31,10 +31,10 @@ const Services = () => {
         que se ha adentrado en la teoría de los cuerpos perfectos (los rumores hablan de que tiene que ver algo con su hijo), Irene que es experta en superficies y 
         cuerpos de la pradera, Nura algebrista enamorada de la geometría y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
-      <p>
-        Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo: <br/>
-        Coméis en un sitio que se usa para jugar en la respuesta del acertijo
-      </p>
+      <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
+      <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
+
+      
       <input
         type="text"
         placeholder="Introduce la palabra secreta"

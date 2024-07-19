@@ -28,3 +28,11 @@
     box-sizing: border-box;
   }
   
+  .acertijos {
+    border: 2px solid #0056b3; /* Especifica el tipo de borde */
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px; /* Añade un poco de padding para mejor visualización */
+  }
+  
