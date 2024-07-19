@@ -1,43 +1,25 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
 const Fase1 = () => {
-  const [inputValue, setInputValue] = useState('');
-  const [isButtonVisible, setIsButtonVisible] = useState(false);
-  const navigate = useNavigate();
-
-  const handleInputChange = (e) => {
-    const value = e.target.value;
-    setInputValue(value);
-    if (value.toLowerCase() === 'respuesta') { // Cambia 'respuesta' por la palabra secreta deseada
-      setIsButtonVisible(true);
-    } else {
-      setIsButtonVisible(false);
-    }
-  };
-
-  const handleButtonClick = () => {
-    navigate('/siguiente-fase'); // Cambia '/siguiente-fase' por la ruta deseada
-  };
-
   return (
     <div className="page-content">
-      <h1>Proposición</h1>
+      <h1>título</h1>
       <p>
-        Sea X un espacio topológico discreto 
+        Descripción
       </p>
-      <input
-        type="text"
-        placeholder="Introduce la palabra secreta"
-        value={inputValue}
-        onChange={handleInputChange}
+      <h2>título acertijo</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+
+      <SecretInput 
+        secretWord="amarillo"
+        navigateTo="/fase2"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
       />
-      {isButtonVisible && (
-        <button onClick={handleButtonClick} className="custom-button">
-          Siguiente Fase
-        </button>
-      )}
     </div>
   );
 };

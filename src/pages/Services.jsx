@@ -1,26 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
+import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
 const Services = () => {
-  const [inputValue, setInputValue] = useState('');
-  const [isButtonVisible, setIsButtonVisible] = useState(false);
-  const navigate = useNavigate();
-
-  const handleInputChange = (e) => {
-    const value = e.target.value;
-    setInputValue(value);
-    if (value.toLowerCase() === 'vitalia') {
-      setIsButtonVisible(true);
-    } else {
-      setIsButtonVisible(false);
-    }
-  };
-
-  const handleButtonClick = () => {
-    navigate('/fase1');
-  };
-
   return (
     <div className='page-content' id="inicio">
       <h1>La Teoría de Paco Pico</h1>
@@ -33,24 +15,16 @@ const Services = () => {
       </p>
       <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
       <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
-
       
-      <div className="input-container">
-        <input
-          type="text"
-          placeholder="Introduce la palabra secreta"
-          value={inputValue}
-          onChange={handleInputChange}
-          className="input-secret" // Añade una clase para el input si quieres estilizarlo
-        />
-        {isButtonVisible && (
-          <button onClick={handleButtonClick} className="custom-button">
-            Siguiente Fase
-          </button>
-        )}
-      </div>
+      <SecretInput 
+        secretWord="vitalia"
+        navigateTo="/fase1"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la respuesta del acertijo"}
+      />
     </div>
   );
 };
 
 export default Services;
+
