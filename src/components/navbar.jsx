@@ -25,9 +25,9 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/Yincana_PacoPico" onClick={handleClose}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/about" onClick={handleClose}>Instrucciones</Nav.Link>
-            <Nav.Link as={Link} to="/services" onClick={handleClose}>Teorema de Paco Pico</Nav.Link>
-            <Nav.Link as={Link} to="/contact" onClick={handleClose}>La Leyenda de la Puchaina Matediva</Nav.Link>
+            <Nav.Link as={Link} to="/instrucciones" onClick={handleClose}>Instrucciones</Nav.Link>
+            <Nav.Link as={Link} to="/teorema_PP" onClick={handleClose}>Teorema de Paco Pico</Nav.Link>
+            <Nav.Link as={Link} to="/leyenda" onClick={handleClose}>La Leyenda de la Puchaina Matediva</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

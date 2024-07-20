@@ -2,7 +2,7 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Services = () => {
+const Teorema_PP = () => {
   return (
     <div className='page-content' id="inicio">
       <h1>La Teoría de Paco Pico</h1>
@@ -26,5 +26,5 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Teorema_PP;
 

@@ -1,21 +1,24 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/home';
-import About from '../pages/About';
-import Services from '../pages/Services';
-import Contact from '../pages/Contact';
+import Instrucciones from '../pages/Instrucciones';
+import Teorema_PP from '../pages/Teorema_PP';
 import TeoremaRoutes from './TeoremaRoutes';
+import Leyenda from '../pages/Leyenda';
+import LeyendaRoutes from './LeyendaRoutes';
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/Yincana_PacoPico" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/*" element={<TeoremaRoutes />} /> {/* Enruta las rutas de Teorema */}
+      <Route path="/Instrucciones" element={<Instrucciones />} />
+      <Route path="/Teorema_PP" element={<Teorema_PP />} />
+      <Route path="/Leyenda" element={<Leyenda />} />
+      <Route path="/*" element={<TeoremaRoutes />} />
+      <Route path="/*" element={<LeyendaRoutes />} />
     </Routes>
   );
 };
 
 export default AppRoutes;
+

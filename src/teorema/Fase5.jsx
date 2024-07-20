@@ -2,10 +2,10 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Fase3 = () => {
+const Fase5 = () => {
   return (
     <div className="page-content">
-      <h1>fase 3</h1>
+      <h1>fase 5</h1>
       <p>
         Descripción
       </p>
@@ -24,4 +24,4 @@ const Fase3 = () => {
   );
 };
 
-export default Fase3;
+export default Fase5;
