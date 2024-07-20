@@ -16,7 +16,7 @@ const Fase3 = () => {
 
       <SecretInput 
         secretWord="hola"
-        navigateTo="/fase4"
+        navigateTo="/teorema/fase4"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />

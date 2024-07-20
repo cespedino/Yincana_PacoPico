@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
@@ -16,7 +16,7 @@ const Fase2 = () => {
 
       <SecretInput 
         secretWord="hola"
-        navigateTo="/fase3"
+        navigateTo="/teorema/fase3"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />

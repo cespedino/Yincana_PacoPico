@@ -16,8 +16,8 @@ const Leyenda = () => {
         (Mochila de Migul, quedan x tiempo para que todo termine, firmado las matedivas PD: hay sitios donde es mejor no entrometerse)
       </p>
       <SecretInput 
-        secretWord="vitalia"
-        navigateTo="/fase1L"
+        secretWord="a"
+        navigateTo="/leyendaPM/fase1"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la respuesta del acertijo"}
       />

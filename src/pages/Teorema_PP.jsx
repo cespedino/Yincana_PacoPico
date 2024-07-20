@@ -4,7 +4,7 @@ import '../styles/pages.css';
 
 const Teorema_PP = () => {
   return (
-    <div className='page-content' id="inicio">
+    <div className='page-content'>
       <h1>La Teoría de Paco Pico</h1>
       <h2>Prueba de entrada</h2>
       <p>
@@ -18,7 +18,7 @@ const Teorema_PP = () => {
       
       <SecretInput 
         secretWord="vitalia"
-        navigateTo="/fase1"
+        navigateTo="/teorema/fase1"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la respuesta del acertijo"}
       />
