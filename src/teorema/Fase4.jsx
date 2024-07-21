@@ -5,13 +5,14 @@ import '../styles/pages.css';
 const Fase4 = () => {
   return (
     <div className="page-content">
-      <h1>fase 5</h1>
+      <h1>Basic fit mafia</h1>
       <p>
         Descripción
       </p>
-      <h2>título acertijo</h2>
+      <h2>Teorema</h2>
       <p className='acertijos'>
-        Acertijo
+        Entre heteros básicos me hallo, <br/>
+        debo favores que me asfixian, 
       </p>
 
       <SecretInput 

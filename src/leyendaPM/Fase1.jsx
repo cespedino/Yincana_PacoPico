@@ -11,7 +11,8 @@ const Fase1 = () => {
       </p>
       <h2>título acertijo</h2>
       <p className='acertijos'>
-        Acertijo
+        , <br/>
+
       </p>
 
       <SecretInput 
