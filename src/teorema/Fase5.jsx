@@ -9,7 +9,7 @@ const Fase5 = () => {
       <p>
         Descripción
       </p>
-      <h2></h2>
+      <h2>Lema clásico</h2>
       <p className='acertijos'>
         Con tanta fórmula, 
         no se entera ni Mario,
