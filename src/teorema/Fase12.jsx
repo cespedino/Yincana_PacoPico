@@ -5,21 +5,21 @@ import '../styles/pages.css';
 const Fase12 = () => {
   return (
     <div className="page-content">
-      <h1>fase 12</h1>
+      <h1></h1>
       <p>
-        Descripción
+        Todos los enigmas anteriores están diseñados para que puedierais entender lo que de verdad importa, y es la unicidad de este momento. De este rato que
+        hemos estado juntos y por volver a pasar por algunos de los lugares que hemos estado.<br/>
+        Ya habéis finalizado esta aventura, espero que la hayais disfrutado, tomaros vuestro tiempo para pasar al final de verdad. 
       </p>
-      <h2>acertijo </h2>
       <p className='acertijos'>
-        acertijo
+        Saborea tu recompesa de haber llegado hasta aquí. La palabra es valor incalculable
       </p>
-
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
-        navigateTo="/Yincana_PacoPico"
-        buttonText="Ya has desbloqueado el acceso"
-        entradaText={"Introduce la solución a este acertijo"}
+        secretWord="valor incalculable"
+        secretWordAlt="valor incalculable"
+        navigateTo="/teorema/final"
+        buttonText="Solo pulsarás este botón 1 vez"
+        entradaText={"Enjoy the moment"}
       />
     </div>
   );

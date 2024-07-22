@@ -14,7 +14,7 @@ const Teorema_PP = () => {
         cuerpos de la pradera, Nura algebrista enamorada de la geometría y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
       <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
-
+      <h2>Teorema del Viajero</h2>
       <p className='acertijos'>
         He recorrido mil caminos, <br/>
         Y en mi vientre he guardado saberes divinos. <br/>
@@ -25,7 +25,7 @@ const Teorema_PP = () => {
       <SecretInput 
         secretWord="mochila de carlos"
         secretWordAlt="la mochila de carlos"
-        navigateTo="/teorema/fase9"
+        navigateTo="/teorema/fase1"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />

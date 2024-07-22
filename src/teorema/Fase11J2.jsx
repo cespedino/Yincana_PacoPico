@@ -2,7 +2,7 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Fase1J2 = () => {
+const Fase11J2 = () => {
   return (
     <div className="page-content">
       <h1>Carlos</h1>
@@ -11,13 +11,15 @@ const Fase1J2 = () => {
       </p>
       <h2></h2>
       <p className='acertijos'>
-        Los payasos no me hacen reír, <br/>
-        
+        Como un recuerdo <br/>
+        soy la flor de la calma <br/>
+        me has visto en muchas películas, <br/>
+        y aún en más juegos
       </p>
 
       <SecretInput 
-        secretWord="batman"
-        secretWordAlt="batman"
+        secretWord="princesa"
+        secretWordAlt="princesa"
         navigateTo="/teorema/fase12"
         buttonText="Penúltima fase"
         entradaText={"Tonto el que lo lea"}
@@ -26,4 +28,4 @@ const Fase1J2 = () => {
   );
 };
 
-export default Fase1J2;
+export default Fase11J2;

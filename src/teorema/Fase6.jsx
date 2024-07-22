@@ -7,9 +7,9 @@ const Fase6 = () => {
     <div className="page-content">
       <h1>fase parque enfrente piso clara</h1>
       <p>
-        Descripción
+        Las cases de wilfredo a última hora sin duda, vaya locura. Quizás su amigo os pueda ayudar
       </p>
-      <h2>título acertijo</h2>
+      <h2>Parque Escopetero</h2>
       <p className='acertijos'>
         Acertijo
       </p>

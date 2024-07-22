@@ -5,8 +5,8 @@ import '../styles/pages.css';
 const Fase3 = () => {
   return (
     <div className="page-content">
-      <h1></h1>
       <p>
+        Quizás os había llamado la atención, ¿pero sabéis cuántas veces habréis pasado por ahí? <br/>
         El siguiente resultado, aunque no tiene nombre propio, seguro que guarda un lugar muy especial en vuestra memoria.
       </p>
       <h2>Proposición</h2>

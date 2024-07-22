@@ -10,7 +10,7 @@ const Final = () => {
         Formando parte de la secta de Paco Pico se recorre un viaje, distinto para cada miembro, con diferentes relaciones para cada elemento. 
         Unos serán burros, otros un club de fans de Morcillo o incluso algunas matedivas.
 
-        Vuestro regalo no es una yincana, ni una página web, pero se parece a un teorema.
+        Vuestro regalo no es una yincana, ni una página web, ni un teorema aunque se parece en algo.
          
         Esos pequeños (inmensos) detalles, 
         Las comidas en el dominos, para luego pasar por delante de vitalia.
@@ -22,9 +22,9 @@ const Final = () => {
         La mochila de Carlos.
         O las cenas en el Rosario,
 
-        Simplemente detalles que nos han acompañado y que no vemos por la prisa del día, por el agobio de los exámenes o la vida en general.
+        Simplemente detalles que nos han acompañado y que no vemos por la prisa del día a día, por el agobio de los exámenes o la vida en general.
         
-        Vuestro regalo es un recordatorio de que estos momentos que hemos pasado, están pasando (y pasarán), al igual que los matemáticas que se descubren 
+        Vuestro regalo es un simple recordatorio de que estos momentos que hemos pasado, están pasando (y pasarán), al igual que las matemáticas que se descubren 
         y no se usan hasta años después, es necesario y suficiente que pase el tiempo para que veáis que al igual que los teoremas, os acompañarán para siempre.
       </p>
     </div>
