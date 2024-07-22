@@ -29,6 +29,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/teorema_PP" onClick={handleClose}>La Teoría de Paco Pico</Nav.Link>
             <Nav.Link as={Link} to="/leyenda" onClick={handleClose}>La Leyenda de las Matedivas</Nav.Link>
             <Nav.Link as={Link} to="/zombie" onClick={handleClose}>La Invasión Zombie</Nav.Link>
+            <Nav.Link as={Link} to="/city" onClick={handleClose}>Escape the City</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

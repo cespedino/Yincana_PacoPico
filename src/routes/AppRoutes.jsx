@@ -8,6 +8,8 @@ import Leyenda from '../pages/Leyenda';
 import LeyendaRoutes from './LeyendaRoutes';
 import Zombie from '../pages/Zombie';
 import ZombieRoutes from './ZombieRoutes';
+import City from '../pages/city';
+import AlvaroRoutes from './AlvaroRoutes';
 
 const AppRoutes = () => {
   return (
@@ -20,6 +22,8 @@ const AppRoutes = () => {
       <Route path="/Teorema/*" element={<TeoremaRoutes />} />
       <Route path="/LeyendaPM/*" element={<LeyendaRoutes />} />
       <Route path="/Zombie/*" element={<ZombieRoutes />} />
+      <Route path="/city" element={<City />} />
+      <Route path="/city/*" element={<AlvaroRoutes />} />
     </Routes>
   );
 };
