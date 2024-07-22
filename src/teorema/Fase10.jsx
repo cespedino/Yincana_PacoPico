@@ -17,7 +17,7 @@ const Fase10 = () => {
       <SecretInput 
         secretWord="rosario"
         secretWordAlt="el rosario"
-        navigateTo="/teorema/fase11"
+        navigateTo="/teorema/fase1J1"
         buttonText="Ve a la respuesta del acertijo"
         entradaText={"Introduce la solución a este acertijo"}
       />
@@ -28,7 +28,7 @@ const Fase10 = () => {
       <SecretInput 
         secretWord="rosario"
         secretWordAlt="el rosario"
-        navigateTo="/teorema/fase11"
+        navigateTo="/teorema/fase1J2"
         buttonText="Ve a la respuesta del acertijo"
         entradaText={"Introduce la solución a este acertijo"}
       />

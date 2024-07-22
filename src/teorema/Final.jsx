@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/pages.css';
 
-const Fase12 = () => {
+const Final = () => {
   return (
     <div className="page-content">
       <h1>Corolario Teorema Paco Pico</h1>
@@ -27,12 +27,8 @@ const Fase12 = () => {
         Vuestro regalo es un recordatorio de que estos momentos que hemos pasado, están pasando (y pasarán), al igual que los matemáticas que se descubren 
         y no se usan hasta años después, es necesario y suficiente que pase el tiempo para que veáis que al igual que los teoremas, os acompañarán para siempre.
       </p>
-      <h2>acertijo </h2>
-      <p className='acertijos'>
-        acertijo
-      </p>
     </div>
   );
 };
 
-export default Fase12;
+export default Final;

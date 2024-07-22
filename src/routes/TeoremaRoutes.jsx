@@ -10,8 +10,14 @@ import Fase7 from '../teorema/Fase7';
 import Fase8 from '../teorema/Fase8';
 import Fase9 from '../teorema/Fase9';
 import Fase10 from '../teorema/Fase10';
-import Fase11 from '../teorema/Fase11';
-import Fase12 from '../teorema/Fase12';
+import Fase1J1 from '../teorema/Fase1J1';
+import Fase1J2 from '../teorema/Fase1J2';
+import Fase1J3 from '../teorema/Fase1J3.jsx';
+import Fase1J4 from '../teorema/Fase1J4';
+import Fase1J5 from '../teorema/Fase1J5';
+import Fase1J6 from '../teorema/Fase1J6';
+
+import Final from '../teorema/Final';
 
 const TeoremaRoutes = () => {
   return (
@@ -26,8 +32,14 @@ const TeoremaRoutes = () => {
       <Route path="/fase8" element={<Fase8 />} />
       <Route path="/fase9" element={<Fase9 />} />
       <Route path="/fase10" element={<Fase10 />} />
-      <Route path="/fase11" element={<Fase11 />} />
-      <Route path="/fase12" element={<Fase12 />} />
+      <Route path="/fase1J1" element={<Fase1J1 />} />
+      <Route path="/fase1J2" element={<Fase1J2 />} />
+      <Route path="/fase1J3" element={<Fase1J3 />} />
+      <Route path="/fase1J4" element={<Fase1J4 />} />
+      <Route path="/fase1J5" element={<Fase1J5 />} />
+      <Route path="/fase1J6" element={<Fase1J6 />} />
+      <Route path="/final" element={<Final />} />
+      
     </Routes>
   );
 };
