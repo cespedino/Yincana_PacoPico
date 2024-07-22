@@ -12,13 +12,14 @@ const Fase3 = () => {
       <h2>Proposición</h2>
       <p className='acertijos'>
         Una persona discreta, <br/>
-        otra con alas se enfado, <br/>
+        a otra con alas se enfado, <br/>
         pero su plan tan bien estructuró <br/>
         que feliz con su maleta partió. <br/>
       </p>
 
       <SecretInput 
         secretWord="amable"
+        secretWordAlt="amable"
         navigateTo="/teorema/fase4"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}

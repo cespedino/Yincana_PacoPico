@@ -10,14 +10,13 @@ const Fase1 = () => {
         Sea X un espacio topológico discreto tal que se verifican las siguientes propiedades: <br />
           •	Existe al menos un fifa shiny. <br />
           •	El número de potaxies y swifties es mayor o igual al número de fifas. <br />
-          •	Haya tensión sexual entre algunos elementos, pero no pase de ahí. <br />
-          •	No haya relaciones simétricas entre los elementos.<br />
+          •	No haya relaciones del todo simétricas entre los elementos.<br />
         Entonces, se forma la secta de Paco Pico. <br />
         <br />
         A partir de aquí vuestro trabajo va a ser demostrar este teorema e ir avanzando por definiciones, lemas y proposiciones que os terminarán llevando al Teorema
-        Fundamental de Paco Pico. <br />
+        Fundamental de Paco Pico. Empezando por el Lema de la Farola. <br />
       </p>
-      <h2>Lema de la farola</h2>
+      <h2>Lema de la Farola</h2>
       <p className='acertijos'>
         En la plaza de las ocho farolas de colores, hay un color que no se repite. ¿Cuál es?
       </p>

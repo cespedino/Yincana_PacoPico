@@ -24,10 +24,11 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Carlos: <br/>
+        Soy más rápido que la sombra, amigo de las colas y como llame a los nudillos te revientan. ¿Quién soy?
       </p>
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="sonic"
+        secretWordAlt="sanic"
         navigateTo="/teorema/fase11J2"
         buttonText="Siguiente fase"
         entradaText={"Introduce la solución a este acertijo"}
@@ -38,8 +39,8 @@ const Fase10 = () => {
         Experto en curvas, nadie me gana en la pradera. A remolque aprendí que todo tiene un final.
       </p>
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="rayo mcqueen"
+        secretWordAlt="mcqueen"
         navigateTo="/teorema/fase11J3"
         buttonText="Siguiente fase"
         entradaText={"Introduce la solución a este acertijo"}
@@ -59,10 +60,11 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Candela: <br/>
+        Esta por todo el mundo, por el norte goza e incluso a casa llego. ¿Quién soy?
       </p>
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="zara"
+        secretWordAlt="inditex"
         navigateTo="/teorema/fase11J5"
         buttonText="Siguiente fase"
         entradaText={"Introduce la solución a este acertijo"}

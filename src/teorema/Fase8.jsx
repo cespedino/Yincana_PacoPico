@@ -10,19 +10,13 @@ const Fase8 = () => {
         Descripción
       </p>
       <h2>Teorema del viajero</h2>
-      <p className='acertijos'>
-        He recorrido mil caminos, <br/>
-        Y en mi vientre he guardado saberes divinos. <br/>
-        Cansada y rota, estoy abatida <br/>
-        ¿Qué soy?
-      </p>
-
+      <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
+      
       <SecretInput 
-        secretWord="mochila de carlos"
-        secretWordAlt="la mochila de carlos"
-        navigateTo="/teorema/fase9"
+        secretWord="vitalia"
+        navigateTo="/teorema/fase10"
         buttonText="Siguiente Fase"
-        entradaText={"Introduce la solución a este acertijo"}
+        entradaText={"Introduce la respuesta del acertijo"}
       />
     </div>
   );

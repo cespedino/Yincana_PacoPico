@@ -6,8 +6,8 @@ const Fase2 = () => {
   return (
     <div className="page-content">
       <p>
-        Aunque habéis pasado gran cantidad de veces, por esa plaza. ¿Os habías fijado en los pequeños detalles? <br/>
-        El siguiente resultado, os va a ayudar a conocer mejor la zona de vuelta al piso de Clara.
+        Aunque habéis pasado gran cantidad de veces por esa plaza. ¿Os habías fijado en los pequeños detalles? <br/>
+        El siguiente resultado, os va a ayudar a conocer mejor una zona por la que hemos ido varias veces al piso de Clara.
       </p>
       <h2>Teorema de las Botellas</h2>
       <p className='acertijos'>
@@ -18,6 +18,7 @@ const Fase2 = () => {
 
       <SecretInput 
         secretWord="una"
+        secretWordAlt="1"
         navigateTo="/teorema/fase3"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}

@@ -14,13 +14,20 @@ const Teorema_PP = () => {
         cuerpos de la pradera, Nura algebrista enamorada de la geometría y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
       <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
-      <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
-      
+
+      <p className='acertijos'>
+        He recorrido mil caminos, <br/>
+        Y en mi vientre he guardado saberes divinos. <br/>
+        Cansada y rota, estoy abatida <br/>
+        ¿Qué soy?
+      </p>
+
       <SecretInput 
-        secretWord="vitalia"
-        navigateTo="/teorema/fase10"
+        secretWord="mochila de carlos"
+        secretWordAlt="la mochila de carlos"
+        navigateTo="/teorema/fase9"
         buttonText="Siguiente Fase"
-        entradaText={"Introduce la respuesta del acertijo"}
+        entradaText={"Introduce la solución a este acertijo"}
       />
     </div>
   );
