@@ -19,7 +19,7 @@ const Leyenda = () => {
       </p>
       <p className='acertijos'>
         Si me miras bien parezco una puchaina, <br/ >
-        En mi vientre se esconde, lo que calma el frío <br/ >
+        En mi vientre se esconde, lo que calma el frío, <br/ >
         Alba no me quiere, <br/ >
         y Ángela nunca querrá entender este enigma. <br/ >
         ¿Qué soy?

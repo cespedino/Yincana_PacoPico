@@ -18,7 +18,7 @@ const Teorema_PP = () => {
       
       <SecretInput 
         secretWord="vitalia"
-        navigateTo="/teorema/fase1"
+        navigateTo="/teorema/fase10"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la respuesta del acertijo"}
       />

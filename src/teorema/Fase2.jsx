@@ -9,7 +9,7 @@ const Fase2 = () => {
         Aunque habéis pasado gran cantidad de veces, por esa plaza. ¿Os habías fijado en los pequeños detalles? <br/>
         El siguiente resultado, os va a ayudar a conocer mejor la zona de vuelta al piso de Clara.
       </p>
-      <h2>Teorema de la Botella</h2>
+      <h2>Teorema de las Botellas</h2>
       <p className='acertijos'>
         Bajo el globo, un perro observa y <br/>
         un pato corre. Sobre la moto, <br/>

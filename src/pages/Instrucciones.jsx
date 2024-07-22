@@ -12,7 +12,9 @@ const Instrucciones = () => {
         3. No está permitido usar ninguna ayuda externa sin la supervisión de algún organizador (google, chatGPT, maps, WhatsApp, etc.). <br />
         4. Importante, no darle atrás ni recargar la página, por si acaso ir guardando las respuestas a los enigmas por si por algún motivo tuvieses que empezar
             desde el principio. <br/>
-        5. Todo lo que se cuenta es figurado, pero para una mejor experiencia se recomienda sumergirse en la narración. <br />
+        5. Si no podéis hallar la respuesta a alguna fase, no os preocupéis. Podéis canjear pistas por un módico precio, el grupo que no esta participando exigirá 
+           una prueba, como cantar o bailar algo en particular, o recrear algún meme o trend y cuando den el visto bueno se os proporcionará la pista. <br/>
+        6. Todo lo que se cuenta es figurado, pero para una mejor experiencia se recomienda sumergirse en la narración. <br />
       </p>
       <p>Esperemos que os guste, se ha hecho con mucho cariño y con el fin de que lo disfruteis al máximo.</p>
     </div>

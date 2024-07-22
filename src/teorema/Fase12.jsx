@@ -2,29 +2,27 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Fase5 = () => {
+const Fase12 = () => {
   return (
     <div className="page-content">
-      <h1></h1>
+      <h1>fase 12</h1>
       <p>
         Descripción
       </p>
-      <h2>Lema clásico</h2>
+      <h2>acertijo </h2>
       <p className='acertijos'>
-        Con tanta fórmula, <br/>
-        no se entera ni Mario,<br/>
-        aunque le gusta la granja,<br/>
-        le molan más otro lugares.
+        acertijo
       </p>
 
       <SecretInput 
-        secretWord="wilfredo"
-        navigateTo="/teorema/fase6"
-        buttonText="Siguiente Fase"
+        secretWord="rosario"
+        secretWordAlt="el rosario"
+        navigateTo="/teorema/fase10"
+        buttonText="Ve a la respuesta del acertijo"
         entradaText={"Introduce la solución a este acertijo"}
       />
     </div>
   );
 };
 
-export default Fase5;
+export default Fase12;

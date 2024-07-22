@@ -2,21 +2,24 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Fase6 = () => {
+const Fase7 = () => {
   return (
     <div className="page-content">
-      <h1>fase parque enfrente piso clara</h1>
+      <h1>fase one direction falta buscar audio de la melodía de alguna canción </h1>
       <p>
         Descripción
       </p>
       <h2>título acertijo</h2>
       <p className='acertijos'>
-        Acertijo
+        Cuatro puntos cardinales marcan el rumbo, <br/>
+        Aunque grandes masas se desplazaron, <br/>
+        Sin un euro se quedaron. 
       </p>
 
       <SecretInput 
-        secretWord="hola"
-        navigateTo="/teorema/fase7"
+        secretWord="one direction"
+        secretWordAlt="one direction"
+        navigateTo="/teorema/fase8"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />
@@ -24,4 +27,4 @@ const Fase6 = () => {
   );
 };
 
-export default Fase6;
+export default Fase7;
