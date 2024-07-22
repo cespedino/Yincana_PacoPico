@@ -5,9 +5,9 @@ import '../styles/pages.css';
 const Fase1J3 = () => {
   return (
     <div className="page-content">
-      <h1>fase 1 Irene</h1>
+      <h1>Irene</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por su cuenta.
+        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
       </p>
       <h2>acertijo </h2>
       <p className='acertijos'>
@@ -20,8 +20,8 @@ const Fase1J3 = () => {
         secretWord="cpn"
         secretWordAlt="carlos pares numerico"
         navigateTo="/teorema/fase12"
-        buttonText="Ve a la respuesta del acertijo"
-        entradaText={"Introduce la solución a este acertijo"}
+        buttonText="Penúltima fase"
+        entradaText={"¿Será verdad que siempre tienes la razón?"}
       />
     </div>
   );

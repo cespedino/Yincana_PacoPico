@@ -16,9 +16,10 @@ const Home = () => {
       </p>
 
       <SecretInput 
-        secretWord="hola"
+        secretWord="16/11/2022"
+        secretWordAlt="jaldsgpoaknjaeopiaukjdsnaofiguda"
         navigateTo="/services"
-        buttonText="Siguiente Fase"
+        buttonText="Final"
         entradaText={"Aún no tienes acceso a este acertijo"}
       />
     </div>

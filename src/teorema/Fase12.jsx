@@ -17,8 +17,8 @@ const Fase12 = () => {
       <SecretInput 
         secretWord="rosario"
         secretWordAlt="el rosario"
-        navigateTo="/teorema/fase10"
-        buttonText="Ve a la respuesta del acertijo"
+        navigateTo="/Yincana_PacoPico"
+        buttonText="Ya has desbloqueado el acceso"
         entradaText={"Introduce la solución a este acertijo"}
       />
     </div>
