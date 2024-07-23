@@ -5,14 +5,14 @@ import '../styles/pages.css';
 const Fase10 = () => {
   return (
     <div className="page-content">
-      <h1>fase 10</h1>
+      <h1>Los caminos se separan</h1>
       <p>
         A partir de aquí cada uno tomará su propio rumbo. 
       </p>
       <h2>Lema de separación</h2>
       <p className='acertijos'>
         Clara: <br/>
-        Mido unos 47 cm y te encanta comerme por Navidad, soy mangar difícil de pagar, pero Carlos seguro me preparara con culpabilidad 
+        Mido unos 47 cm y te encanta comerme por Navidad, soy manjar difícil de pagar, pero Carlos seguro me preparara con culpabilidad 
       </p>
       <SecretInput 
         secretWord="rodaballo"

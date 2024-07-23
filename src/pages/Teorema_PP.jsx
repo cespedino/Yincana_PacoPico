@@ -16,7 +16,7 @@ const Teorema_PP = () => {
       <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
       <h2>Teorema del Viajero</h2>
       <p className='acertijos'>
-        He recorrido mil caminos, <br/>
+        He recorrido mil veces el mismo camino, <br/>
         Y en mi vientre he guardado saberes divinos. <br/>
         Cansada y rota, estoy abatida <br/>
         ¿Qué soy?

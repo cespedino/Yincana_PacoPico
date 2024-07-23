@@ -6,7 +6,8 @@ const Fase8 = () => {
   return (
     <div className="page-content">
       <p>
-        Algún día Clara conseguirá que todos veamos el documental de One Direction mientras tanto, 
+        Algún día Clara conseguirá que todos veamos el documental de One Direction mientras tanto, os dejo con el enigma más complicado de todos.
+        Paciencia y pensarlo bien.
       </p>
       <h2>Teorema Imposible</h2>
       <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>

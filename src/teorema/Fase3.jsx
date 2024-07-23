@@ -12,7 +12,7 @@ const Fase3 = () => {
       <h2>Proposición</h2>
       <p className='acertijos'>
         Una persona discreta, <br/>
-        a otra con alas se enfado, <br/>
+        a otra con alas enfado, <br/>
         pero su plan tan bien estructuró <br/>
         que feliz con su maleta partió. <br/>
       </p>

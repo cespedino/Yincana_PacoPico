@@ -11,15 +11,18 @@ const Fase11J1 = () => {
       </p>
       <h2>acertijo </h2>
       <p className='acertijos'>
-        acertijo
+        Un tesoro sin igual, <br/>
+        Que en los buenos y malos momentos es real, <br/>
+        Entre risas y secretos se forja, <br/>
+        En la vida, su valor se desborda. <br/>
       </p>
 
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="amistad"
+        secretWordAlt="la amistad"
         navigateTo="/teorema/fase12"
         buttonText="Ve a la respuesta del acertijo"
-        entradaText={"Imagine Dragons > One direction"}
+        entradaText={"você pode"}
       />
     </div>
   );

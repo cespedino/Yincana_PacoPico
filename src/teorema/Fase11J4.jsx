@@ -11,16 +11,16 @@ const Fase11J4 = () => {
       </p>
       <h2>acertijo </h2>
       <p className='acertijos'>
-        Ni el calor extremo, <br/>
-        ni este posible lugar <br/>
-        son capaces de albergar <br/>
-        unos oceános tan supremos. <br/>
-        ¿Quién soy? 
+        Dos gemelos presentes, <br/>
+        asombran a toda la gente, <br/>
+        con ventanas al alma, revelan <br/>
+        lo que el corazón siente <br/>
+        ¿Quiénes somos? 
       </p>
 
       <SecretInput 
-        secretWord="julia"
-        secretWordAlt="lia"
+        secretWord="ojos"
+        secretWordAlt="mis ojos"
         navigateTo="/teorema/fase12"
         buttonText="Penúltima fase"
         entradaText={"gorda me la pones pequeña"}

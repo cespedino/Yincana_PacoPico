@@ -5,7 +5,6 @@ import '../styles/pages.css';
 const Fase12 = () => {
   return (
     <div className="page-content">
-      <h1></h1>
       <p>
         Todos los enigmas anteriores están diseñados para que puedierais entender lo que de verdad importa, y es la unicidad de este momento. De este rato que
         hemos estado juntos y por volver a pasar por algunos de los lugares que hemos estado.<br/>

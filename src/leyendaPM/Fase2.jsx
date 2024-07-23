@@ -5,18 +5,19 @@ import '../styles/pages.css';
 const Fase2 = () => {
   return (
     <div className="page-content">
-      <h1>Fase 2</h1>
       <p>
         Descripción
       </p>
-      <h2>título acertijo</h2>
       <p className='acertijos'>
-        Acertijo
+        Con tanta fórmula, <br/>
+        no se entera ni Mario,<br/>
+        aunque le gusta la granja,<br/>
+        le molan más otro lugares.
       </p>
 
       <SecretInput 
-        secretWord="hola"
-        navigateTo="/leyendaPM/fase3"
+        secretWord="wilfredo"
+        navigateTo="/teorema/fase6"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />
