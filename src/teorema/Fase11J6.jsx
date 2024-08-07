@@ -11,11 +11,13 @@ const Fase11J6 = () => {
       </p>
       <h2>acertijo</h2>
       <p className='acertijos'>
-        acertijo
+        A veces loko, otras veces con garras <br/>
+        A veces de topo, otras veces de prob <br/>
+        ¿Quién puedo ser?
       </p>
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="dilf"
+        secretWordAlt="dilfs"
         navigateTo="/teorema/fase12"
         buttonText="Penúltima fase"
         entradaText={"shot of faith"}

@@ -7,7 +7,7 @@ const Fase5 = () => {
     <div className="page-content">
       <h1></h1>
       <p>
-        Descripción
+        Quizás la mafia y los heteros no os hallan resultado difícil, sin embargo, el siguiente resultado espero que os sea mucho más familiar.
       </p>
       <h2>Lema clásico</h2>
       <p className='acertijos'>

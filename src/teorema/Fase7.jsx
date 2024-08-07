@@ -5,13 +5,15 @@ import '../styles/pages.css';
 const Fase7 = () => {
   return (
     <div className="page-content">
-      <h1>fase one direction falta buscar audio de la melodía de alguna canción </h1>
+      <h1>Cuántas menos dimensiones mejor</h1>
       <p>
-        Descripción
+        Claramente, todo es más fácil cuanto menor sea la dimensión. Del mismo modo, esta prueba es mejor que la penséis cada uno por separado porque para una persona
+        sola será más fácil hallar la respuesta.
       </p>
-      <h2>título acertijo</h2>
+      <h2>Lema del rumbo</h2>
       <p className='acertijos'>
-        Cuatro puntos cardinales marcan el rumbo, <br/>
+        Cuatro puntos cardinales marcan el rumbo <br/>
+        en una sola dimensión <br/>
         Aunque grandes masas se desplazaron, <br/>
         Sin un euro se quedaron. 
       </p>

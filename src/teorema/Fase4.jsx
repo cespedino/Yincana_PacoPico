@@ -7,7 +7,7 @@ const Fase4 = () => {
     <div className="page-content">
       <h1>Basic fit mafia</h1>
       <p>
-        Descripción
+        Amable y su música clásica. Bueno y lo más importante, sus aprobados, ¿a veces una ayudita nunca viene mal eh?
       </p>
       <h2>Teorema</h2>
       <p className='acertijos'>
