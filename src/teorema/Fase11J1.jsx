@@ -9,7 +9,7 @@ const Fase11J1 = () => {
       <p>
         A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
       </p>
-      <h2>acertijo </h2>
+      <h2></h2>
       <p className='acertijos'>
         Un tesoro sin igual, <br/>
         Que en los buenos y malos momentos es real, <br/>
@@ -21,7 +21,7 @@ const Fase11J1 = () => {
         secretWord="amistad"
         secretWordAlt="la amistad"
         navigateTo="/teorema/fase12J1"
-        buttonText="Ve a la respuesta del acertijo"
+        buttonText="Penúltima fase"
         entradaText={"você pode"}
       />
     </div>
