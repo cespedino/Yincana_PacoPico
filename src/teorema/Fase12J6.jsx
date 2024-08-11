@@ -10,7 +10,7 @@ const Fase12J6 = () => {
         Vais a jugar un quién es quién, donde vuestro acertijo va a ser la persona que os ha tocado, hay que esperar a que todos hayan llegado hasta aquí y empezamos 
         el último nivel.
       </p>
-      <h2>acertijo </h2>
+      <h2>Quien es quien</h2>
       <p className='acertijos'>
         Introduce la palabra del quien es quien
       </p>
@@ -19,7 +19,7 @@ const Fase12J6 = () => {
         secretWord="tom hiddleston"
         secretWordAlt="loki"
         navigateTo="/teorema/fase13"
-        buttonText="Ve a la respuesta del acertijo"
+        buttonText="Final"
         entradaText={"Introduce tu persona"}
       />
     </div>

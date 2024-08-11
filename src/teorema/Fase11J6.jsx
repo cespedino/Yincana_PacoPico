@@ -9,9 +9,9 @@ const Fase11J6 = () => {
       <p>
         A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
       </p>
-      <h2>acertijo</h2>
+      <h2>Si te duplico la edad...</h2>
       <p className='acertijos'>
-        A veces loko, otras veces con garras <br/>
+        A veces loki, otras veces con garras <br/>
         A veces de topo, otras veces de prob <br/>
         ¿Quién puedo ser?
       </p>

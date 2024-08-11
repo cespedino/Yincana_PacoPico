@@ -9,7 +9,7 @@ const Fase11J4 = () => {
       <p>
         A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
       </p>
-      <h2>acertijo </h2>
+      <h2>Zafiros en la cara</h2>
       <p className='acertijos'>
         Dos gemelos presentes, <br/>
         asombran a toda la gente, <br/>

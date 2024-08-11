@@ -9,14 +9,17 @@ const Fase11J5 = () => {
       <p>
         A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
       </p>
-      <h2>acertijo </h2>
+      <h2>Verdes ventanas al alma</h2>
       <p className='acertijos'>
-        acertijo
+        Dos pequeños cielos en tu mirar, <br/>
+        brillan como el mar al amanecer, <br/>
+        son esmeraldas que nadie puede comprar, <br/>
+        ¿qué son estos tesoros que no puedes esconder? <br/>
       </p>
 
       <SecretInput 
-        secretWord="rosario"
-        secretWordAlt="el rosario"
+        secretWord="ojos"
+        secretWordAlt="mis ojos"
         navigateTo="/teorema/fase12J5"
         buttonText="Penúltima fase"
         entradaText={"barbie cajera al poder"}
