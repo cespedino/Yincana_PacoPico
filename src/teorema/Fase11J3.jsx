@@ -20,7 +20,7 @@ const Fase11J3 = () => {
       <SecretInput 
         secretWord="cpn"
         secretWordAlt="carlos pares numerico"
-        navigateTo="/teorema/fase12"
+        navigateTo="/teorema/fase12J3"
         buttonText="Penúltima fase"
         entradaText={"¿Será verdad que siempre tienes la razón?"}
       />

@@ -20,7 +20,7 @@ const Fase11J1 = () => {
       <SecretInput 
         secretWord="amistad"
         secretWordAlt="la amistad"
-        navigateTo="/teorema/fase12"
+        navigateTo="/teorema/fase12J1"
         buttonText="Ve a la respuesta del acertijo"
         entradaText={"você pode"}
       />
