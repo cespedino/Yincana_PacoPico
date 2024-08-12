@@ -9,9 +9,12 @@ const Teorema_PP = () => {
       <h2>Prueba de entrada</h2>
       <p>
         En esta aventura formarán parte seis intrépidos investigadores de matemáticas:
-        Clara investigadora en teoría de grupos sectarios, Julia que esta investigando algo, pero no se ha enterado muy bien el qué, Candela 
-        que se ha adentrado en la teoría de los cuerpos perfectos (los rumores hablan de que tiene que ver algo con su hijo), Irene que es experta en superficies y 
-        cuerpos de la pradera, Nura algebrista enamorada de la geometría y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
+        Clara investigadora en teoría de grupos sectarios, <br/>
+        Julia que esta investigando algo, pero no se ha enterado muy bien el qué, <br/>
+        Candela que se ha adentrado en la teoría de los cuerpos perfectos (los rumores hablan de que tiene que ver algo con su hijo), <br/>
+        Irene que es experta en superficies y cuerpos de la pradera, <br/>
+        Nura algebrista enamorada de la geometría <br/>
+        y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
       <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
       <h2>Teorema del Viajero</h2>
