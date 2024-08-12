@@ -9,14 +9,68 @@ const Fase4 = () => {
       <p>
         Descripción
       </p>
-      <h2>título acertijo</h2>
+      <h2>Alba</h2>
       <p className='acertijos'>
         Acertijo
       </p>
-
       <SecretInput 
         secretWord="hola"
-        navigateTo="/leyendaPM/fase3"
+        navigateTo="/leyendaPM/fase5J1"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
+      />
+
+      <h2>Ángela</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+      <SecretInput 
+        secretWord="hola"
+        navigateTo="/leyendaPM/fase5J2"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
+      />
+
+      <h2>Alberto</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+      <SecretInput 
+        secretWord="hola"
+        navigateTo="/leyendaPM/fase5J3"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
+      />
+
+      <h2>José David</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+      <SecretInput 
+        secretWord="hola"
+        navigateTo="/leyendaPM/fase5J4"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
+      />
+
+      <h2>Raúl</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+      <SecretInput 
+        secretWord="hola"
+        navigateTo="/leyendaPM/fase5J5"
+        buttonText="Siguiente Fase"
+        entradaText={"Introduce la solución a este acertijo"}
+      />
+
+      <h2>Miguel</h2>
+      <p className='acertijos'>
+        Acertijo
+      </p>
+      <SecretInput 
+        secretWord="hola"
+        navigateTo="/leyendaPM/fase5J6"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />

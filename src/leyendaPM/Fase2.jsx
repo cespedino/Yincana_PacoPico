@@ -6,7 +6,7 @@ const Fase2 = () => {
   return (
     <div className="page-content">
       <p>
-        Descripción
+        Para poder pasar al siguiente acertijo, vais a tener que hacer un poco de memoria.
       </p>
       <p className='acertijos'>
         Con tanta fórmula, <br/>
@@ -17,7 +17,7 @@ const Fase2 = () => {
 
       <SecretInput 
         secretWord="wilfredo"
-        navigateTo="/teorema/fase6"
+        navigateTo="/leyendaPM/fase3"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />
