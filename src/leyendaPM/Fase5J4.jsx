@@ -7,8 +7,7 @@ const Fase5J4 = () => {
     <div className="page-content">
       <h1>José David</h1>
       <p>
-        Vais a jugar un quién es quién, donde vuestro acertijo va a ser la persona que os ha tocado, hay que esperar a que todos hayan llegado hasta aquí y empezamos 
-        el último nivel.
+        Vais a jugar un quién es quién, donde vuestro acertijo va a ser la persona que os ha tocado, hay que esperar a que todos hayan llegado hasta aquí.
       </p>
       <h2>Quien es quien</h2>
       <p className='acertijos'>
@@ -16,7 +15,7 @@ const Fase5J4 = () => {
       </p>
 
       <SecretInput 
-        secretWord="CPN"
+        secretWord="cpn"
         secretWordAlt="carlos parés numérico"
         navigateTo="/leyendaPM/fase6"
         buttonText="Siguiente Nivel"
