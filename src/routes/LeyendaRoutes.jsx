@@ -16,6 +16,9 @@ import Fase5J4 from '../leyendaPM/Fase5J4';
 import Fase5J5 from '../leyendaPM/Fase5J5';
 import Fase5J6 from '../leyendaPM/Fase5J6';
 import Fase6 from '../leyendaPM/Fase6';
+import Fase7 from '../leyendaPM/Fase7';
+import Fase8 from '../leyendaPM/Fase8';
+import Fase9 from '../leyendaPM/Fase9';
 
 const LeyendaRoutes = () => {
   return (
@@ -36,6 +39,9 @@ const LeyendaRoutes = () => {
       <Route path="/fase5J5" element={<Fase5J5 />} />
       <Route path="/fase5J6" element={<Fase5J6 />} />
       <Route path="/fase6" element={<Fase6 />} />
+      <Route path="/fase7" element={<Fase7 />} />
+      <Route path="/fase8" element={<Fase8 />} />
+      <Route path="/fase9" element={<Fase9 />} />
     </Routes>
   );
 };
