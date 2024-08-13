@@ -18,7 +18,8 @@ const Fase1 = () => {
       </p>
       <h2>Lema de la Farola</h2>
       <p className='acertijos'>
-        En la plaza de las ocho farolas de colores, hay un color que no se repite. ¿Cuál es?
+        Junto al globo, el pato y la moto. <br />
+        Si me buscas bien seguro que me encontrarás 
       </p>
 
       <SecretInput 

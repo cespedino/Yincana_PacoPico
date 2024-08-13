@@ -5,7 +5,7 @@ import '../styles/pages.css';
 const Fase3 = () => {
   return (
     <div className="page-content">
-      <h1>Fase 4</h1>
+      <h1>Fase 3</h1>
       <p>
         Descripción
       </p>
