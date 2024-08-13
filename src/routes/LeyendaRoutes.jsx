@@ -20,7 +20,7 @@ import Fase6 from '../leyendaPM/Fase6';
 const LeyendaRoutes = () => {
   return (
     <Routes>
-      c
+      <Route path="/fase1" element={<Fase1 />} />
       <Route path="/fase2" element={<Fase2 />} />
       <Route path="/fase3" element={<Fase3 />} />
       <Route path="/fase4J1" element={<Fase4J1 />} />
