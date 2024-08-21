@@ -7,19 +7,26 @@ const Fase1 = () => {
     <div className="page-content">
       <h1>Teorema de Paco Pico</h1>
       <p>
+        Tras haber pasado la prueba inicio, ya sois dignos de tener el Teorema de Paco Pico enunciado <br />
         Sea X un espacio topológico discreto tal que se verifican las siguientes propiedades: <br />
           •	Existe al menos un fifa shiny. <br />
+          •	El conjunto de los elementos con ganas de vivir es denso en X. <br />
+          •	Existen elementos que se atraen entre ellos. <br />
           •	El número de potaxies y swifties es mayor o igual al número de fifas. <br />
-          •	No haya relaciones del todo simétricas entre los elementos.<br />
-        Entonces, se forma la secta de Paco Pico. <br />
+          •	Soy Carlos esta presente en todas las encuestas <br />
+          •	 <br />
+        Entonces, se forma el grupo sectario de Paco Pico. <br />
         <br />
         A partir de aquí vuestro trabajo va a ser demostrar este teorema e ir avanzando por definiciones, lemas y proposiciones que os terminarán llevando al Teorema
-        Fundamental de Paco Pico. Empezando por el Lema de la Farola. <br />
+        Fundamental de Paco Pico. Vamos a suponer que el fifa shiny existe porque si lo tenéis que encontrar la yincana sería demasiado larga. Si queréis lo hacéis en 
+        vosotros. <br />
+        Empezando por el Lema de la Farola, dirígios a la ubicación de la respuesta del acertijo. <br />
       </p>
       <h2>Lema de la Farola</h2>
       <p className='acertijos'>
-        Junto al globo, el pato y la moto. <br />
-        Si me buscas bien seguro que me encontrarás 
+        Para demostrar este puzle de dimensiones jurásicas <br />
+        Deberéis encontrar al perro detective junto al pato corriendo. <br />
+        Seguramente una persona de primaria lo encontraría sin problemas. <br />
       </p>
 
       <SecretInput 

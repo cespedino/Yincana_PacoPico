@@ -7,7 +7,7 @@ const Fase11J2 = () => {
     <div className="page-content">
       <h1>Carlos</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
+      Tendrás que ir a la localización del acertijo y buscar un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2></h2>
       <p className='acertijos'>

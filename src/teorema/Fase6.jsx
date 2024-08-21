@@ -7,7 +7,8 @@ const Fase6 = () => {
     <div className="page-content">
       <h1>fase parque enfrente piso clara</h1>
       <p>
-        Las cases de wilfredo a última hora sin duda, vaya locura. Quizás su amigo os pueda ayudar
+        Las clases de wilfredo os enseñaron muchas cosas, pero para nuestro resultado solo necesitamos la fuerza gravitatoria (fuerza atractora), 
+        lo que nos va a permitir obtener que hay personas que se atraen.
       </p>
       <h2>Parque Escopetero</h2>
       <p className='acertijos'>

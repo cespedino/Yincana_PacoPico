@@ -6,7 +6,7 @@ const Final = () => {
     <div className="page-content">
       <h1>Corolario Teorema Paco Pico</h1>
       <p>
-        Sin embargo, es trivial demostrar el siguiente corolario a partir del teorema de Paco Pico: <br/>
+        Sin embargo, es trivial demostrar el siguiente corolario a partir del Teorema Fundamental de Paco Pico: <br/>
         Formando parte de la secta de Paco Pico se recorre un viaje, distinto para cada miembro, con diferentes relaciones para cada elemento. <br/>
         Unos serán burros, otros un club de fans de Morcillo o incluso algunas matedivas. <br/>
 

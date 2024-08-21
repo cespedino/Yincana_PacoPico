@@ -7,7 +7,8 @@ const Fase4 = () => {
     <div className="page-content">
       <h1>Basic fit mafia</h1>
       <p>
-        Amable y su música clásica. Bueno y lo más importante, sus aprobados, ¿a veces una ayudita nunca viene mal eh?
+        Amable y su música clásica. Bueno y lo más importante, sus aprobados, ¿a veces una ayudita nunca viene mal eh? Se supone que con el acertijo anterior habéis 
+        aprendido a contar, algo fundamental para demostrar que hay menos fifas que potaxies y swifties.
       </p>
       <h2>Teorema</h2>
       <p className='acertijos'>

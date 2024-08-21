@@ -16,7 +16,7 @@ const Teorema_PP = () => {
         Nura algebrista enamorada de la geometría <br/>
         y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
-      <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
+      <p>Para poder entrar a esta prueba, os espera un reto para saber si conocéis todo el lore de Paco Pico o sois unos impostores:</p>
       <h2>Teorema del Viajero</h2>
       <p className='acertijos'>
         He recorrido mil veces el mismo camino, <br/>

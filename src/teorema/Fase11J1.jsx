@@ -7,9 +7,9 @@ const Fase11J1 = () => {
     <div className="page-content">
       <h1>Clara</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
+      Tendrás que ir a la localización del acertijo y buscar un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
-      <h2></h2>
+      <h2>Teorema de la Búsqueda</h2>
       <p className='acertijos'>
         Un tesoro sin igual, <br/>
         Que en los buenos y malos momentos es real, <br/>

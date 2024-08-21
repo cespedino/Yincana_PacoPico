@@ -7,7 +7,7 @@ const Fase4J3 = () => {
     <div className="page-content">
       <h1>Alberto</h1>
       <p>
-        Descripción
+      Tendrás que ir a la localización del acertijo y buscar un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2></h2>
       <p className='acertijos'>

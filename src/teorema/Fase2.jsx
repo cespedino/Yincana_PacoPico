@@ -6,19 +6,20 @@ const Fase2 = () => {
   return (
     <div className="page-content">
       <p>
-        Aunque habéis pasado gran cantidad de veces por esa plaza. ¿Os habías fijado en los pequeños detalles? <br/>
-        El siguiente resultado, os va a ayudar a conocer mejor una zona por la que hemos ido varias veces al piso de Clara.
+        Necesitabáis contar con una bombilla encendida para que se os iluminen las ideas para el resto de la yincana. (aunque este apagada) <br/>
+        El siguiente resultado, os va a ayudar a reencontrar el camino y ver como todos tenéis ganas de vivir. 
       </p>
-      <h2>Teorema de las Botellas</h2>
+      <h2>Teorema de Santa Inés</h2>
       <p className='acertijos'>
-        Bajo el globo, un perro observa y <br/>
-        un pato corre. Sobre la moto, <br/>
-        ¿cuántas botellas hay?
+        A Clara varias veces han intentado seducir, <br/>
+        Nura estaría fuera de lugar, <br/>
+        Irene se sentiría como en casa,
+        ¿de qué sitio se podría tratar?
       </p>
 
       <SecretInput 
-        secretWord="una"
-        secretWordAlt="1"
+        secretWord="iglesia"
+        secretWordAlt="parroquia"
         navigateTo="/teorema/fase3"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
