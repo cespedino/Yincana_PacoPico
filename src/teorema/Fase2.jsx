@@ -6,7 +6,6 @@ const Fase2 = () => {
   return (
     <div className="page-content">
       <p>
-        Necesitabáis contar con una bombilla encendida para que se os iluminen las ideas para el resto de la yincana. (aunque este apagada) <br/>
         El siguiente resultado, os va a ayudar a reencontrar el camino y ver como todos tenéis ganas de vivir. 
       </p>
       <h2>Teorema de Santa Inés</h2>

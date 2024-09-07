@@ -7,13 +7,11 @@ const Fase11J6 = () => {
     <div className="page-content">
       <h1>Nura</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
+      Ve con Carlos al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2>Si te duplico la edad...</h2>
       <p className='acertijos'>
-        A veces loki, otras veces con garras <br/>
-        A veces de topo, otras veces de prob <br/>
-        ¿Quién puedo ser?
+      Introduce la clave del QR
       </p>
       <SecretInput 
         secretWord="dilf"

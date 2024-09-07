@@ -13,25 +13,24 @@ const Fase1 = () => {
           •	El conjunto de los elementos con ganas de vivir es denso en X. <br />
           •	Existen elementos que se atraen entre ellos. <br />
           •	El número de potaxies y swifties es mayor o igual al número de fifas. <br />
-          •	Soy Carlos esta presente en todas las encuestas <br />
-          •	 <br />
         Entonces, se forma el grupo sectario de Paco Pico. <br />
         <br />
         A partir de aquí vuestro trabajo va a ser demostrar este teorema e ir avanzando por definiciones, lemas y proposiciones que os terminarán llevando al Teorema
         Fundamental de Paco Pico. Vamos a suponer que el fifa shiny existe porque si lo tenéis que encontrar la yincana sería demasiado larga. Si queréis lo hacéis en 
         vosotros. <br />
-        Empezando por el Lema de la Farola, dirígios a la ubicación de la respuesta del acertijo. <br />
+        Empezando por el Lema de la Escuela, dirígios a la ubicación para poder obtener la respuesta al acertijo. <br />
       </p>
-      <h2>Lema de la Farola</h2>
+      <h2>Lema de la Escuela</h2>
       <p className='acertijos'>
         Para demostrar este puzle de dimensiones jurásicas <br />
         Deberéis encontrar al perro detective junto al pato corriendo. <br />
         Seguramente una persona de primaria lo encontraría sin problemas. <br />
+        El nombre del negocio que esta justo enfrente es la respuesta al acertijo.
       </p>
 
       <SecretInput 
-        secretWord="amarillo"
-        secretWordAlt="amarilla"
+        secretWord="alameda"
+        secretWordAlt="guardería"
         navigateTo="/teorema/fase2"
         buttonText="Siguiente Fase"
         entradaText="Introduce la solución a este acertijo"

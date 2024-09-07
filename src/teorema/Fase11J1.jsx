@@ -7,18 +7,15 @@ const Fase11J1 = () => {
     <div className="page-content">
       <h1>Clara</h1>
       <p>
-      Tendrás que ir a la localización del acertijo y buscar un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Téneis unas letras y tendrás con Irene que descubrir la palabra de vuestro acertijo.
       </p>
       <h2>Teorema de la Búsqueda</h2>
       <p className='acertijos'>
-        Un tesoro sin igual, <br/>
-        Que en los buenos y malos momentos es real, <br/>
-        Entre risas y secretos se forja, <br/>
-        En la vida, su valor se desborda. <br/>
+        Introduce la palabra correcta.
       </p>
 
       <SecretInput 
-        secretWord="amistad"
+        secretWord="sensaciones"
         secretWordAlt="la amistad"
         navigateTo="/teorema/fase12J1"
         buttonText="Penúltima fase"

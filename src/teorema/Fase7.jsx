@@ -7,15 +7,17 @@ const Fase7 = () => {
     <div className="page-content">
       <h1>Cuántas menos dimensiones mejor</h1>
       <p>
-        Claramente, todo es más fácil cuanto menor sea la dimensión. Del mismo modo, esta prueba es mejor que la penséis cada uno por separado porque para una persona
-        sola será más fácil hallar la respuesta.
+      Las clases de wilfredo os enseñaron muchas cosas, pero para nuestro resultado solo necesitamos la fuerza gravitatoria (fuerza atractora), 
+      lo que nos va a permitir obtener que hay personas que se atraen. <br/>
+      Claramente, todo es más fácil cuanto menor sea la dimensión. Del mismo modo, esta prueba es mejor que la penséis cada uno por separado porque para una persona
+      sola será más fácil hallar la respuesta.
       </p>
       <h2>Lema del rumbo</h2>
       <p className='acertijos'>
         Cuatro puntos cardinales marcan el rumbo <br/>
         en una sola dimensión <br/>
         Aunque grandes masas se desplazaron, <br/>
-        Sin un euro se quedaron. 
+        Solo tenía un sentido 
       </p>
 
       <SecretInput 

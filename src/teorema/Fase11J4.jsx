@@ -7,15 +7,11 @@ const Fase11J4 = () => {
     <div className="page-content">
       <h1>Julia</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
+      Ve con Candela al sitio de las farolas de colores y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2>Zafiros en la cara</h2>
       <p className='acertijos'>
-        Dos gemelos presentes, <br/>
-        asombran a toda la gente, <br/>
-        con ventanas al alma, revelan <br/>
-        lo que el corazón siente <br/>
-        ¿Quiénes somos? 
+      Introduce la clave del QR
       </p>
 
       <SecretInput 

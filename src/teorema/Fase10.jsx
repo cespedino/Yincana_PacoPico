@@ -12,7 +12,7 @@ const Fase10 = () => {
       <h2>Lema de separación</h2>
       <p className='acertijos'>
         Clara: <br/>
-        Mido unos 47 cm y te encanta comerme por Navidad, soy manjar difícil de pagar, pero Carlos seguro me preparara con culpabilidad 
+        Mido unos 47 cm y te encanta comerme por Navidad, soy manjar difícil de pagar, pero Carlos seguro me preparara con culpabilidad.
       </p>
       <SecretInput 
         secretWord="rodaballo"
@@ -48,7 +48,7 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Julia: <br/>
-        La sangre de Dios corría por mi venas, aunque no le gusté a nadie. Llegué a caminar entre los mejores, ¿quién soy?
+        La sangre de dioses corría por mis venas, aunque no le gusté a casi nadie. Llegué a formar parte de los mejores, ¿quién soy?
       </p>
       <SecretInput 
         secretWord="rey"
@@ -60,7 +60,7 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Candela: <br/>
-        Esta por todo el mundo, por el norte goza e incluso a casa llego. ¿Quién soy?
+        Estoy por todo el mundo, por el norte goza e incluso a casa llego. ¿Quién soy?
       </p>
       <SecretInput 
         secretWord="zara"

@@ -7,14 +7,11 @@ const Fase11J5 = () => {
     <div className="page-content">
       <h1>Candela</h1>
       <p>
-        A partir de aquí todo cambia, os separáis y cada uno tenéis que continuar por vuestra cuenta.
+      Ve con Julia al sitio de las farolas de colores y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2>Verdes ventanas al alma</h2>
       <p className='acertijos'>
-        Dos pequeños cielos en tu mirar, <br/>
-        brillan como el mar al amanecer, <br/>
-        son esmeraldas que nadie puede comprar, <br/>
-        ¿qué son estos tesoros que no puedes esconder? <br/>
+      Introduce la clave del QR
       </p>
 
       <SecretInput 

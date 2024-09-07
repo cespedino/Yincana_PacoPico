@@ -7,14 +7,11 @@ const Fase11J2 = () => {
     <div className="page-content">
       <h1>Carlos</h1>
       <p>
-      Tendrás que ir a la localización del acertijo y buscar un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Ve con Nura al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2></h2>
       <p className='acertijos'>
-        Como un recuerdo <br/>
-        soy la flor de la calma <br/>
-        me has visto en muchas películas, <br/>
-        y aún en más juegos
+        Introduce la clave del QR
       </p>
 
       <SecretInput 

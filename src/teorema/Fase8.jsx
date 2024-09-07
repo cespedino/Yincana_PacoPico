@@ -10,7 +10,7 @@ const Fase8 = () => {
         Paciencia y pensarlo bien. 
       </p>
       <h2>Teorema Imposible</h2>
-      <p className="acertijos">Coméis en un sitio que se usa para jugar en la respuesta del acertijo.</p>
+      <p className="acertijos">Coméis en un sitio que se usa para jugar cerca de la respuesta del acertijo.</p>
       
       <SecretInput 
         secretWord="vitalia"
