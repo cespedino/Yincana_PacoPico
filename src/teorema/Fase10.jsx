@@ -12,7 +12,7 @@ const Fase10 = () => {
       <h2>Lema de separación</h2>
       <p className='acertijos'>
         Clara: <br/>
-        Mido unos 47 cm y te encanta comerme por Navidad, soy manjar difícil de pagar, pero Carlos seguro me preparara con culpabilidad.
+        Mido unos 47 cm y te encanta comerme por Navidad, soy manjar difícil de pagar, pero si me piensas seguro que me encuentras.
       </p>
       <SecretInput 
         secretWord="rodaballo"
@@ -36,7 +36,7 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Irene: <br/>
-        Experto en curvas, nadie me gana en la pradera. A remolque aprendí que todo tiene un final.
+        Experto en curvas, nadie me gana ni en un cañon ni en la pradera. A remolque aprendí que todo tiene un final.
       </p>
       <SecretInput 
         secretWord="rayo mcqueen"
@@ -48,7 +48,7 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Julia: <br/>
-        La sangre de dioses corría por mis venas, aunque no le gusté a casi nadie. Llegué a formar parte de los mejores, ¿quién soy?
+        La sangre de dioses corría por mis venas, aunque no le gusté a casi nadie. Llegué a ser familia de los mejores, ¿quién soy?
       </p>
       <SecretInput 
         secretWord="rey"
@@ -71,12 +71,12 @@ const Fase10 = () => {
       />
 
       <p className='acertijos'>
-        Nura: <br/>
-        En todos lados me veías, en clase te acompañaba. Aunque disparaba tiros, mensajes de felicidad te transmitía. 
+        Raúl: <br/>
+        Se cruzo en tu camino para fijar la técnica, pero las barras y los discos te enamoramoraron. 
       </p>
       <SecretInput 
-        secretWord="shoto"
-        secretWordAlt="el shoto"
+        secretWord="gym"
+        secretWordAlt="cross fit"
         navigateTo="/teorema/fase11J6"
         buttonText="Siguiente fase"
         entradaText={"Introduce la solución a este acertijo"}

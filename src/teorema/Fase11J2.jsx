@@ -7,7 +7,7 @@ const Fase11J2 = () => {
     <div className="page-content">
       <h1>Carlos</h1>
       <p>
-      Ve con Nura al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Ve con Raúl al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
       <h2></h2>
       <p className='acertijos'>

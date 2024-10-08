@@ -7,7 +7,7 @@ const Fase1 = () => {
     <div className="page-content">
       <h1>Teorema de Paco Pico</h1>
       <p>
-        Tras haber pasado la prueba inicio, ya sois dignos de tener el Teorema de Paco Pico enunciado <br />
+        Tras haber pasado la prueba de inicio, ya sois dignos de tener el Teorema de Paco Pico enunciado <br />
         Sea X un espacio topológico discreto tal que se verifican las siguientes propiedades: <br />
           •	Existe al menos un fifa shiny. <br />
           •	El conjunto de los elementos con ganas de vivir es denso en X. <br />
@@ -25,7 +25,7 @@ const Fase1 = () => {
         Para demostrar este puzle de dimensiones jurásicas <br />
         Deberéis encontrar al perro detective junto al pato corriendo. <br />
         Seguramente una persona de primaria lo encontraría sin problemas. <br />
-        El nombre del negocio que esta justo enfrente es la respuesta al acertijo.
+        El nombre de la guardería que esta justo enfrente es la respuesta al acertijo.
       </p>
 
       <SecretInput 

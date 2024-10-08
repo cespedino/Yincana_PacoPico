@@ -20,7 +20,7 @@ const Teorema_PP = () => {
       <h2>Teorema del Viajero</h2>
       <p className='acertijos'>
         He recorrido mil veces el mismo camino, <br/>
-        Y en mi vientre he guardado saberes divinos. <br/>
+        Y en mi interior he guardado saberes divinos. <br/>
         Cansada y rota, estoy abatida <br/>
         ¿Qué soy?
       </p>

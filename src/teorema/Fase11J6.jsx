@@ -5,7 +5,7 @@ import '../styles/pages.css';
 const Fase11J6 = () => {
   return (
     <div className="page-content">
-      <h1>Nura</h1>
+      <h1>Raúl</h1>
       <p>
       Ve con Carlos al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
       </p>
