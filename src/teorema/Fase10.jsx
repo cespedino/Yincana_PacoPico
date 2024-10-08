@@ -72,7 +72,7 @@ const Fase10 = () => {
 
       <p className='acertijos'>
         Raúl: <br/>
-        Se cruzo en tu camino para fijar la técnica, pero las barras y los discos te enamoramoraron. 
+        Se cruzo en tu camino para fijar la técnica, pero las barras y los discos te enamoraron. 
       </p>
       <SecretInput 
         secretWord="gym"

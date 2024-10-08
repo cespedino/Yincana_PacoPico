@@ -13,7 +13,7 @@ const Teorema_PP = () => {
         Julia que esta investigando algo, pero no se ha enterado muy bien el qué, <br/>
         Candela que se ha adentrado en la teoría de los cuerpos perfectos (los rumores hablan de que tiene que ver algo con su hijo), <br/>
         Irene que es experta en superficies y cuerpos de la pradera, <br/>
-        Nura algebrista enamorada de la geometría <br/>
+        Raúl, el discípulo de Lorente y Cristóbal, <br/>
         y Carlos, que esta desarrollando formas de conseguir apuntes que no se saben ni que existían.
       </p>
       <p>Para poder entrar a esta prueba, os espera un reto para saber si conocéis todo el lore de Paco Pico o sois unos impostores:</p>

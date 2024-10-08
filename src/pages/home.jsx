@@ -19,7 +19,7 @@ const Home = () => {
       <SecretInput 
         secretWord="16/11/2022"
         secretWordAlt="jaldsgpoaknjaeopiaukjdsnaofiguda"
-        navigateTo="/services"
+        navigateTo="/teorema/final"
         buttonText="Final"
         entradaText={"Aún no tienes acceso a este acertijo"}
       />
