@@ -7,16 +7,16 @@ const Fase11J2 = () => {
     <div className="page-content">
       <h1>Carlos</h1>
       <p>
-      Ve con Raúl al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Te mandaré a ti y a Raúl una foto por whatsapp y si me decis donde esta el objeto que tenéis que encontrar os daré la palabra secreta
       </p>
       <h2></h2>
       <p className='acertijos'>
-        Introduce la clave del QR
+        Introduce la clave
       </p>
 
       <SecretInput 
-        secretWord="princesa"
-        secretWordAlt="princesa"
+        secretWord="pistola"
+        secretWordAlt="pistola"
         navigateTo="/teorema/fase12J2"
         buttonText="Penúltima fase"
         entradaText={"Tonto el que lo lea"}

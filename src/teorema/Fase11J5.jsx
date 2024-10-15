@@ -7,11 +7,11 @@ const Fase11J5 = () => {
     <div className="page-content">
       <h1>Candela</h1>
       <p>
-      Ve con Julia al sitio de las farolas de colores y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Te mandaré a ti y a Julia una foto por whatsapp y la respuesta es la palabra secreta.
       </p>
       <h2>Verdes ventanas al alma</h2>
       <p className='acertijos'>
-      Introduce la clave del QR
+      Introduce la clave
       </p>
 
       <SecretInput 

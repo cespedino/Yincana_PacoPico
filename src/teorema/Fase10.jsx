@@ -75,8 +75,8 @@ const Fase10 = () => {
         Se cruzo en tu camino para fijar la técnica, pero las barras y los discos te enamoraron. 
       </p>
       <SecretInput 
-        secretWord="gym"
-        secretWordAlt="cross fit"
+        secretWord="crossfit"
+        secretWordAlt="cross-fit"
         navigateTo="/teorema/fase11J6"
         buttonText="Siguiente fase"
         entradaText={"Introduce la solución a este acertijo"}

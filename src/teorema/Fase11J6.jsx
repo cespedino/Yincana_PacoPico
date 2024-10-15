@@ -7,15 +7,15 @@ const Fase11J6 = () => {
     <div className="page-content">
       <h1>Raúl</h1>
       <p>
-      Ve con Carlos al parque de al lado y busca un QR que contendrá una pista que te ayudará a pasar a la siguiente fase.
+      Te mandaré a ti y a Carlos una foto por whatsapp y si me decis donde esta el objeto que tenéis que encontrar os daré la palabra secreta
       </p>
       <h2>Si te duplico la edad...</h2>
       <p className='acertijos'>
-      Introduce la clave del QR
+      Introduce la clave
       </p>
       <SecretInput 
-        secretWord="dilf"
-        secretWordAlt="dilfs"
+        secretWord="pistola"
+        secretWordAlt="pistola"
         navigateTo="/teorema/fase12J6"
         buttonText="Penúltima fase"
         entradaText={"shot of faith"}

@@ -26,7 +26,7 @@ const Final = () => {
         Simplemente detalles que nos han acompañado y que no vemos por la prisa del día a día, por el agobio de los exámenes o la vida en general.<br/>
         
         Vuestro regalo es un simple recordatorio de que estos momentos que hemos pasado, están pasando (y pasarán), al igual que las matemáticas que se descubren 
-        y no se usan hasta años después, es necesario y suficiente que pase el tiempo para que veáis que al igual que los teoremas, estos inmensos momentos os 
+        y no se usan hasta años después, es necesario y suficiente que pase el tiempo para que veáis que como los teoremas, estos inmensos momentos os 
         acompañarán para siempre.
       </p>
     </div>
