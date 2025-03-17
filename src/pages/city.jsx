@@ -8,13 +8,15 @@ const City = () => {
       <h1>Escape the City</h1>
       <h2>Prueba de entrada</h2>
       <p>
+        En esta aventura recorrerás las calles de Málaga con el fin de descubrir algo que se esconde tras ella.
+      </p>
+      <p>
         
       </p>
-      <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
-      <p className="acertijos">HHHHH</p>
+      <p className="acertijos">Para empezar la aventura escribe "Siguiente nivel" en el recuadro de abajo</p>
       
       <SecretInput 
-        secretWord="a"
+        secretWord="Siguiente nivel"
         navigateTo="/city/fase1"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la respuesta del acertijo"}

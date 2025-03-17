@@ -7,7 +7,9 @@ const Fase1 = () => {
     <div className="page-content">
       <h1>Fase 1</h1>
       <p>
-        Descripción
+      Cómo se está convirtiendo en tradición, este año traemos la segunda edición de la yincana para celebrar tu cumple. <br/>
+      Este año se han introducido mejoras después del feedback recibido el año pasado. Es por ello, que no estará nadie más involucrado en ella
+      para que tú puedas disfrutarla al máximo. Además, este año he conseguido que sea en el móvil por lo que nos podemos ir más lejos aún jejeje.
       </p>
       <h2>título acertijo</h2>
       <p className='acertijos'>
