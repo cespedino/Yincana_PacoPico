@@ -19,7 +19,7 @@ const NavigationBar = () => {
     <Navbar className="navbar-custom" expand="lg" expanded={expanded}>
       <Container>
         <Navbar.Brand as={Link} to="/Yincana_PacoPico" onClick={handleClose}>
-          <img src={Olac} alt="Olac" height="80" />
+          <img src={logo} alt="logo" height="80" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
