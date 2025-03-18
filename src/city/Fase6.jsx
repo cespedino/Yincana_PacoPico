@@ -5,7 +5,7 @@ import '../styles/pages.css';
 const Fase6 = () => {
   return (
     <div className="page-content">
-      <h1>Alan Turind</h1>
+      <h1>Fase 6</h1>
       <p>
       Para el enigma del siglo XX, tendrás que descrifrar la máquina que los produce. Para ello tendrás que decodificar la palabra secreta haciendo uso 
       de la máquina enigma casera. 

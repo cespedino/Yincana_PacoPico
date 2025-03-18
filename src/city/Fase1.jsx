@@ -22,7 +22,7 @@ const Fase1 = () => {
 
       <SecretInput 
         secretWord="hola"
-        navigateTo="/leyendaPM/fase2"
+        navigateTo="/city/fase2"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />
