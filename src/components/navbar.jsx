@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 import logo from '../images/logo.png';
+import Olac from '../images/Olac.png';
 
 const NavigationBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -19,7 +20,7 @@ const NavigationBar = () => {
     <Navbar className="navbar-custom" expand="lg" expanded={expanded}>
       <Container>
         <Navbar.Brand as={Link} to="/Yincana_PacoPico" onClick={handleClose}>
-          <img src={logo} alt="logo" height="80" />
+          <img src={Olac} alt="Olac" height="80" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
