@@ -52,4 +52,24 @@
     text-align: center;
     padding: 10px; /* Añade un poco de padding para mejor visualización */
   }
+
+  /* Esto solo afectará a la página de Spiderman */
+.spiderman-theme {
+  background: #0b0e14;
+  color: #ffffff;
+  border: 2px solid #ff003c;
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.4);
+}
+
+.spiderman-theme h1 {
+  color: #ff003c;
+  text-shadow: 2px 2px #00d2ff;
+  text-transform: uppercase;
+}
+
+.spiderman-theme .acertijos {
+  border-left: 4px solid #00d2ff;
+  background: rgba(0, 210, 255, 0.1);
+  padding: 10px;
+}
   
