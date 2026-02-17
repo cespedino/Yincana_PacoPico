@@ -6,7 +6,7 @@ const Spiderman = () => {
   return (
     /* He añadido la clase 'spiderman-theme' aquí */
     <div className='page-content spiderman-theme'>
-      <h1>Almería-verso</h1>
+      <h1 data-text="Almería-verso">Almería-verso</h1>
       <p>
         Año 2026. En un laboratorio secreto debajo de la Universidad de Almería (UAL), un experimento con materia oscura ha salido mal. Una anomalía
         multiversal está "pixelando" la ciudad. Los edificios de la Rambla vibran y el Cable Inglés está empezando a desaparecer. <br/>
@@ -18,7 +18,6 @@ const Spiderman = () => {
       <p>
         Coge todo lo que creas que te pueda ser útil y cuando estés listo pasa al acertijo de abajo.
       </p>
-      <p>Para poder entrar a esta prueba, os espera un reto para saber si sois dignos de afrontarlo:</p>
       <p className="acertijos">
         Debereis poner el código que os dé vuestro profesor para poder acceder:
       </p>

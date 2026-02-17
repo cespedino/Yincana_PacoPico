@@ -72,4 +72,66 @@
   background: rgba(0, 210, 255, 0.1);
   padding: 10px;
 }
+
+/* Contenedor del título */
+.spiderman-theme h1 {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  /* El efecto visual */
+  text-shadow: 0.05em 0 0 #ff003c, -0.025em -0.05em 0 #00d2ff,
+    0.025em 0.05em 0 #ffff00;
+  animation: glitch 725ms infinite;
+}
+
+/* Capas de colores que saltan */
+.spiderman-theme h1::before,
+.spiderman-theme h1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.spiderman-theme h1::before {
+  animation: glitch 650ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-0.025em, -0.0125em);
+  color: #ff003c; /* Rojo 2099 */
+}
+
+.spiderman-theme h1::after {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+  transform: translate(0.0125em, 0.025em);
+  color: #00d2ff; /* Azul neón */
+}
+
+/* La magia del movimiento */
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #ff003c, -0.05em -0.025em 0 #00d2ff;
+  }
+  14% {
+    text-shadow: 0.05em 0 0 #ff003c, -0.05em -0.025em 0 #00d2ff;
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 #ff003c, 0.025em 0.025em 0 #00d2ff;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #ff003c, 0.025em 0.025em 0 #00d2ff;
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 #ff003c, 0.05em 0 0 #00d2ff;
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 #ff003c, 0.05em 0 0 #00d2ff;
+  }
+  100% {
+    text-shadow: -0.025em 0 0 #ff003c, -0.025em -0.025em 0 #00d2ff;
+  }
+}
   
