@@ -28,6 +28,9 @@ const Spiderman = () => {
         buttonText="Siguiente Fase"
         entradaText={"Introduce la respuesta del acertijo"}
       />
+      <div className="miguel_cabeza">
+        <img src="/images/miguel_cabeza" alt="Miguel O'Hara estresado" className="hero-img" />
+      </div>
     </div>
   );
 };
