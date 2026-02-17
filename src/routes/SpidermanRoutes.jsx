@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Fase1 from '../zombie/Fase1';
-import Fase2 from '../zombie/Fase2';
-import Fase3 from '../zombie/Fase3';
+import Fase1 from '../spiderman/Fase1';
+import Fase2 from '../spiderman/Fase2';
+import Fase3 from '../spiderman/Fase3';
 
-const ZombieRoutes = () => {
+const SpidermanRoutes = () => {
   return (
     <Routes>
       <Route path="/fase1" element={<Fase1 />} />
@@ -14,4 +14,4 @@ const ZombieRoutes = () => {
   );
 };
 
-export default ZombieRoutes;
+export default SpidermanRoutes;

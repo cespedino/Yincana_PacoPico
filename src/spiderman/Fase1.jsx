@@ -2,10 +2,10 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Fase2 = () => {
+const Fase1 = () => {
   return (
     <div className="page-content">
-      <h1>fase 2</h1>
+      <h1>fase 1</h1>
       <p>
         Descripción
       </p>
@@ -16,7 +16,7 @@ const Fase2 = () => {
 
       <SecretInput 
         secretWord="a"
-        navigateTo="/zombie/fase3"
+        navigateTo="/spiderman/fase2"
         buttonText="Siguiente Fase"
         entradaText={"Introduce la solución a este acertijo"}
       />
@@ -24,4 +24,4 @@ const Fase2 = () => {
   );
 };
 
-export default Fase2;
+export default Fase1;

@@ -2,10 +2,10 @@ import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
-const Zombie = () => {
+const Spiderman = () => {
   return (
     <div className='page-content'>
-      <h1>La invasión Zombie</h1>
+      <h1>Almería-verso</h1>
       <p>
         Bienvenidos a esta gran aventura, en ella os tendréis que salvar de la invasión zombie e ir afrontantdo los retos que os vayáis encontrando para poder
         salvaros del virus zombie
@@ -29,4 +29,4 @@ const Zombie = () => {
   );
 };
 
-export default Zombie;
+export default Spiderman;
