@@ -6,8 +6,8 @@ import Teorema_PP from '../pages/Teorema_PP';
 import TeoremaRoutes from './TeoremaRoutes';
 import Leyenda from '../pages/Leyenda';
 import LeyendaRoutes from './LeyendaRoutes';
-import Zombie from '../pages/Zombie';
-import ZombieRoutes from './ZombieRoutes';
+import Spiderman from '../pages/Spiderman';
+import SpidermanRoutes from './SpidermanRoutes';
 import City from '../pages/city';
 import AlvaroRoutes from './AlvaroRoutes';
 
@@ -18,10 +18,10 @@ const AppRoutes = () => {
       <Route path="/Instrucciones" element={<Instrucciones />} />
       <Route path="/Teorema_PP" element={<Teorema_PP />} />
       <Route path="/Leyenda" element={<Leyenda />} />
-      <Route path="/Zombie" element={<Zombie />} />
+      <Route path="/Spiderman" element={<Spiderman />} />
       <Route path="/Teorema/*" element={<TeoremaRoutes />} />
       <Route path="/LeyendaPM/*" element={<LeyendaRoutes />} />
-      <Route path="/Zombie/*" element={<ZombieRoutes />} />
+      <Route path="/Spiderman/*" element={<SpidermanRoutes />} />
       <Route path="/city" element={<City />} />
       <Route path="/city/*" element={<AlvaroRoutes />} />
     </Routes>
