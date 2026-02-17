@@ -4,7 +4,7 @@ import '../styles/pages.css';
 
 const Fase1 = () => {
   return (
-    <div className="page-content">
+    <div className='page-content spiderman-theme'>
       <h1>El Glitch del Puerto (Cifrado de la Spider-Red)</h1>
       <p>
         La primera pieza del Tangram está atrapada en un "bucle temporal" frente al Cable Inglés. La IA de la ciudad está bloqueada y solo acepta comandos en
