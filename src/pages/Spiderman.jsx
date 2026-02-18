@@ -1,7 +1,7 @@
 import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
-import imagenMiguel from '../src/images/miguel_cabeza.png'; // Ajusta los puntos según tu carpeta
+import imagenMiguel from '../images/miguel_cabeza.png';
 
 const Spiderman = () => {
   return (
