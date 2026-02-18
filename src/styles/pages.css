@@ -159,4 +159,20 @@
     text-shadow: -0.025em 0 0 #ff003c, -0.025em -0.025em 0 #00d2ff;
   }
 }
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff003c;
+  box-shadow: 0 0 20px rgba(255, 0, 60, 0.5);
+  margin-bottom: 20px;
+  /* Efecto de parpadeo sutil */
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
   

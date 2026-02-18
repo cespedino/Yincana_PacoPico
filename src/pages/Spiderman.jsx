@@ -29,7 +29,7 @@ const Spiderman = () => {
         entradaText={"Introduce la respuesta del acertijo"}
       />
       <div className="miguel_cabeza">
-        <img src="/images/miguel_cabeza" alt="Miguel O'Hara estresado" className="hero-img" />
+        <img src="/images/miguel_cabeza.png" alt="Miguel O'Hara estresado" className="hero-img" />
       </div>
     </div>
   );
