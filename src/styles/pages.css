@@ -161,18 +161,38 @@
 }
 
 .hero-img {
-  max-width: 100%;
+  /* 1. TAMAÑO MÁS PEQUEÑO Y CENTRADO */
+  max-width: 350px; /* Mucho más pequeña (antes era 100%) */
+  width: 100%;      /* Se adapta en móviles muy pequeños */
   height: auto;
+  display: block;   /* Necesario para que el margen automático funcione */
+  margin: 0 auto 30px; /* Centrado horizontal y separación abajo */
+
   border-radius: 10px;
-  border: 2px solid #ff003c;
-  box-shadow: 0 0 20px rgba(255, 0, 60, 0.5);
-  margin-bottom: 20px;
-  /* Efecto de parpadeo sutil */
-  animation: pulse 4s infinite;
+  border: 3px solid #ff003c; /* Borde un poco más grueso para destacar */
+  /* Sombra más intensa y roja */
+  box-shadow: 0 0 35px rgba(255, 0, 60, 0.9), inset 0 0 20px rgba(255, 0, 60, 0.5);
+
+  /* 2. ANIMACIÓN "BESTIA" */
+  /* Usamos 0.15s para un parpadeo frenético (antes 4s) */
+  /* 'steps(2)' hace que el cambio sea brusco, sin suavizado */
+  animation: pulse-beast 0.15s infinite alternate steps(2);
 }
 
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.8; }
+/* Nueva animación de parpadeo intenso */
+@keyframes pulse-beast {
+  0% {
+    opacity: 1;
+    /* Imagen normal */
+    filter: brightness(1) contrast(1) sepia(0);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5; /* Se apaga hasta la mitad */
+    /* Se vuelve muy brillante, saturada y rojiza, como un error */
+    filter: brightness(2) contrast(2) sepia(1) hue-rotate(-50deg);
+    /* Un ligero temblor de tamaño */
+    transform: scale(1.02);
+  }
 }
   
