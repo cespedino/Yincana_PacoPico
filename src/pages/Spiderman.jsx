@@ -1,6 +1,7 @@
 import React from 'react';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
+import imagenMiguel from '../src/images/miguel_cabeza.png'; // Ajusta los puntos según tu carpeta
 
 const Spiderman = () => {
   return (
@@ -29,7 +30,7 @@ const Spiderman = () => {
         entradaText={"Introduce la respuesta del acertijo"}
       />
       <div className="miguel_cabeza">
-        <img src="/images/miguel_cabeza.png" alt="Miguel O'Hara estresado" className="hero-img" />
+        <img src={imagenMiguel} alt="Miguel O'Hara estresado" className="hero-img" />
       </div>
     </div>
   );
