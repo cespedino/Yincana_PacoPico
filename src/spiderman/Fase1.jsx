@@ -5,23 +5,45 @@ import '../styles/pages.css';
 const Fase1 = () => {
   return (
     <div className='page-content spiderman-theme'>
-      <h1>El Glitch del Puerto (Cifrado de la Spider-Red)</h1>
+      <h1>Alerta: Incursión del Duende Verde</h1>
+      
       <p>
-        La primera pieza del Tangram está atrapada en un "bucle temporal" frente al Cable Inglés. La IA de la ciudad está bloqueada y solo acepta comandos en
-        código binario para reactivar el sistema de carga del puerto.
+        El Duende Verde ha surgido de una brecha que se ha creado cerca de la estructura del Cable Inglés. 
+        Su escudo de frecuencia se basa en los <strong>Puntos de Anclaje</strong> físicos.
+      </p>
 
-        Vais a recibir un papiro con una tabla de conversión que relaciona protocolos Decimal, Binario y ASCII.
-      </p>
-      <h2>Desencriptando el sistema</h2>
-      <p className='acertijos'>
-        Para entrar en la red, deben decodificar el bit de seguridad que parpadea en el terminal: 01010000
-      </p>
+      <div className='desafio-container'>
+        <div className='paso-matematico'>
+          <h3>Paso 1: Inspección de Campo</h3>
+          <p>
+            Localiza los <strong>pilares de piedra</strong> (sillería) que sostienen el inicio de la rampa en el parque. 
+            Cuenta cuántos hay y llámales <strong>"X"</strong>.
+          </p>
+        </div>
+
+        <div className='paso-matematico'>
+          <h3>Paso 2: Calibración de Altura</h3>
+          <p>
+            La base de la brecha mide <strong>(X + 5)</strong> metros. Si la viga diagonal de energía 
+            mide <strong>15m</strong>, usa Pitágoras para hallar la altura <strong>H</strong> del pilar.
+          </p>
+        </div>
+
+        <div className='paso-matematico'>
+          <h3>Paso 3: El Disparo Final</h3>
+          <p>
+            Desde esa altura <strong>H</strong>, localizamos al Duende Verde con un ángulo 
+            de respecto al suelo del Cable Inglés de <strong>2°</strong>. ¿A qué distancia horizontal (metros) debemos 
+            lanzar la red electrificada? (Redondea al entero más cercano).
+          </p>
+        </div>
+      </div>
 
       <SecretInput 
-        secretWord="a"
+        secretWord="344" 
         navigateTo="/spiderman/fase2"
-        buttonText="Siguiente Fase"
-        entradaText={"Introduce la solución a este acertijo"}
+        buttonText="¡Lanzar Red!"
+        entradaText="Introduce la distancia en metros"
       />
     </div>
   );

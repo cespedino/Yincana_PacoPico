@@ -26,7 +26,7 @@ const Spiderman = () => {
       <SecretInput 
         secretWord="12345"
         navigateTo="/spiderman/fase1"
-        buttonText="Siguiente Fase"
+        buttonText="Un gran poder conlleva..."
         entradaText={"Introduce la respuesta del acertijo"}
       />
       <div className="miguel_cabeza">
