@@ -13,7 +13,7 @@ const Fase1 = () => {
       </p>
 
       <div className='desafio-container'>
-        <div className='acertijo'>
+        <div className='acertijos'>
           <h3>Paso 1: Inspección de Campo</h3>
           <p>
             Localiza los <strong>pilares de piedra</strong> (sillería) que sostienen el inicio de la rampa en el parque. 
@@ -21,7 +21,7 @@ const Fase1 = () => {
           </p>
         </div>
 
-        <div className='acertijo'>
+        <div className='acertijos'>
           <h3>Paso 2: Calibración de Altura</h3>
           <p>
             La base de la brecha mide <strong>(X + 5)</strong> metros. Si la viga diagonal de energía 
