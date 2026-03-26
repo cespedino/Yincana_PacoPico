@@ -15,6 +15,7 @@ const Fase1 = () => {
       <div className='desafio-container'>
         <div className='acertijos'>
           <h3>Paso 1: Inspección de Campo</h3>
+          {/* El número de pilares físicos que deben contar es 4 */}
           <p>
             Localiza los <strong>pilares de piedra</strong> (sillería) que sostienen el inicio de la rampa en el parque. 
             Cuenta cuántos hay y llámales <strong>"X"</strong>.
