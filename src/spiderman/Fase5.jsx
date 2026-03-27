@@ -9,16 +9,7 @@ const Fase5 = () => {
   // 2. Lógica de hojas: Páginas (28-29), 52, (77-78) y 95 = 5 hojas físicas[cite: 52, 53].
   // CÓDIGO FINAL DE SALVACIÓN: 2565.
 
-  useEffect(() => {
-    // Un pequeño destello de confeti al llegar para motivarles, 
-    // pero el grande saldrá en la siguiente pantalla de victoria.
-    confetti({
-      particleCount: 50,
-      spread: 60,
-      colors: ['#ed1d24', '#000000', '#ffffff'], // Colores de Spider-Man
-      origin: { y: 0.8 }
-    });
-  }, []);
+ 
 
   return (
     <div className='page-content spiderman-theme final-mission'>
