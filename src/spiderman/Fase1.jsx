@@ -30,7 +30,7 @@ const Fase1 = () => {
           </p>
         </div>
 
-        <div className='paso-matematico'>
+        <div className='acertijos'>
           <h3>Paso 3: El Disparo Final</h3>
           <p>
             Desde esa altura <strong>H</strong>, localizamos al Duende Verde con un ángulo 
