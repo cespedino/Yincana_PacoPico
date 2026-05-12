@@ -3,59 +3,73 @@ import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
 const Fase4 = () => {
-  // LÓGICA DEL DOCUMENTO (OPCIÓN 3):
-  // 1. Vector w para llegar a B(5,4) desde A'(2,3) es (3,1). 
-  // 2. Combinatoria: 4^4 = 256. 
-  // 3. Hojas físicas: 28-29 (1), 52 (1), 77-78 (1), 95 (1) -> Total 5. 
-  // RESULTADO COMBINADO: 256 (Combinatoria) + 5 (Lógica) = 2565. 
 
   return (
     <div className='page-content spiderman-theme'>
-      <h1>Fase Final: El Núcleo de la Alcazaba</h1>
-      
+      <h1>Fase 4: El Código de la Alcazaba</h1>
+
       <p>
-        ¡Atención Spider-Society! Almería está desapareciendo[cite: 4]. Para activar el 
-        <strong> Botón de Reinicio Multiversal</strong>, necesitáis el código de 4 dígitos 
-        escondido en estos desafíos de matemáticas puras[cite: 7, 47].
+        Spider-Man 2099 ha encontrado un último mensaje oculto en las murallas
+        de la Alcazaba de :contentReference[oaicite:0]{index=0}.
+        El multiverso sigue colapsando y necesitáis resolver el acertijo final
+        antes de que desaparezca toda la ciudad.
       </p>
 
       <div className='desafio-container'>
+
         <div className='paso-matematico'>
-          <h3>Paso 1: La Red de Vectores</h3>
+          <h3>Prueba 1: Las Torres de Vigilancia</h3>
+
           <p>
-            Estáis en el punto A'(2, 3). Para alcanzar la pieza final oculta en 
-            el punto <strong>B(5, 4)</strong>, calculad el vector director 
-            <strong> vec(w)</strong>. 
-            ¿Cuál es su movimiento en el eje vertical (Y)? 
-            <em> (Este dato os ayudará a confirmar vuestra posición)</em>.
+            Desde una torre se observan 5 caminos distintos hacia el puerto.
+            Spider-Man puede recorrerlos en cualquier orden posible sin repetir.
+          </p>
+
+          <p>
+            ¿Cuántas formas diferentes existen de ordenar los 5 caminos?
+          </p>
+
+          <p>
+            <strong>
+              (Usad únicamente las dos últimas cifras del resultado)
+            </strong>
           </p>
         </div>
 
         <div className='paso-matematico'>
-          <h3>Paso 2: Combinatoria de Portales</h3>
+          <h3>Prueba 2: Coordenadas Secretas</h3>
+
           <p>
-            Debéis elegir una secuencia de 4 colores entre 4 portales disponibles. 
-            Si el orden importa y podéis repetir colores, ¿cuántas combinaciones 
-            existen?. 
-            <em> (Este resultado son los 3 primeros dígitos del código)</em>.
+            Miles Morales encuentra un punto oculto en el plano:
+          </p>
+
+          <p>
+            A(2,3) → B(7,8)
+          </p>
+
+          <p>
+            Calculad el vector AB.
+            ¿Cuánto vale el desplazamiento horizontal?
+          </p>
+
+          <p>
+            <strong>
+              (Este número confirma vuestro código)
+            </strong>
           </p>
         </div>
 
-        <div className='paso-matematico'>
-          <h3>Paso 3: El Glitch del Manual</h3>
-          <p>
-            Para el último dígito: Si arrancamos las páginas 28, 29, 52, 77, 78 
-            y 95 de la guía de la Alcazaba, ¿cuántas <strong>hojas físicas</strong> 
-            hemos quitado en total?[cite: 52, 53].
-          </p>
-        </div>
       </div>
 
-      <SecretInput 
-        secretWord="89" // Código final según el documento [cite: 54]
-        navigateTo="/spiderman/fase5" 
-        buttonText="Reiniciar Multiverso"
-        entradaText="Introduce el código de 4 dígitos"
+      <p>
+        Combinad correctamente los resultados para desbloquear el acceso final.
+      </p>
+
+      <SecretInput
+        secretWord="25"
+        navigateTo="/spiderman/fase5"
+        buttonText="Acceder al Núcleo"
+        entradaText="Introduce el código secreto"
       />
     </div>
   );
