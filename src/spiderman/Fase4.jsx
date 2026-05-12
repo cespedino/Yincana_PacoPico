@@ -10,7 +10,7 @@ const Fase4 = () => {
 
       <p>
         Spider-Man 2099 ha encontrado un último mensaje oculto en las murallas
-        de la Alcazaba de :contentReference[oaicite:0]{index=0}.
+        de la Alcazaba de Almería.
         El multiverso sigue colapsando y necesitáis resolver el acertijo final
         antes de que desaparezca toda la ciudad.
       </p>
