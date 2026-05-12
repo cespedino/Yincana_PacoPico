@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import confetti from 'canvas-confetti';
 import SecretInput from '../components/SecretInput';
 import '../styles/pages.css';
 
