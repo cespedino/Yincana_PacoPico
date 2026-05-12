@@ -11,8 +11,7 @@ const Fase5 = () => {
         <h1>NODO FINAL: REINICIO DEL MULTIVERSO</h1>
 
         <p className='urgente'>
-          Miguel O'Hara ha localizado el núcleo del colapso en la Alcazaba de
-          :contentReference[oaicite:0]{index=0}.
+          Miguel O'Hara ha localizado el núcleo del colapso en la Alcazaba de Almería.
           Las dimensiones están fusionándose.
         </p>
       </div>
