@@ -46,7 +46,7 @@ const Fase3 = () => {
           <p>
             Para el último dígito: Si arrancamos las páginas 28, 29, 52, 77, 78 
             y 95 de la guía de la Alcazaba, ¿cuántas <strong>hojas físicas</strong> 
-            hemos quitado en total?[cite: 52, 53].
+            hemos quitado en total?
           </p>
         </div>
       </div>
