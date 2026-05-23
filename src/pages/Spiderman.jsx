@@ -20,11 +20,11 @@ const Spiderman = () => {
         Coge todo lo que creas que te pueda ser útil y cuando estés listo pasa al acertijo de abajo.
       </p>
       <p className="acertijos">
-        Debereis poner el código que os dé vuestro profesor para poder acceder:
+        Deberéis resolver el primer acertijo que os pase vuestro profesor para comenzar:
       </p>
       
       <SecretInput 
-        secretWord="12345"
+        secretWord="3141592"
         navigateTo="/spiderman/fase1"
         buttonText="Un gran poder conlleva..."
         entradaText={"Introduce la respuesta del acertijo"}

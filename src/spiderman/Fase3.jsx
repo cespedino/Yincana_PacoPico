@@ -53,7 +53,7 @@ const Fase3 = () => {
 
       <SecretInput 
         secretWord="2565" // Código final según el documento [cite: 54]
-        navigateTo="/Spiderman/fase4" 
+        navigateTo="/Spiderman/fase5" 
         buttonText="Reiniciar Multiverso"
         entradaText="Introduce el código de 4 dígitos"
       />
